@@ -1,0 +1,60 @@
+{
+	"multipart": [
+		{
+			"when": { "lit": false },
+			"apply": { "model": "block/ore_side_redstone", "y": 0 }
+		},
+		{
+			"when": { "lit": false },
+			"apply": { "model": "block/ore_side_redstone", "y": 90 }
+		},
+		{
+			"when": { "lit": false },
+			"apply": { "model": "block/ore_side_redstone", "y": 180 }
+		},
+		{
+			"when": { "lit": false },
+			"apply": { "model": "block/ore_side_redstone", "y": 270 }
+		},
+		{
+			"when": { "lit": false },
+			"apply": { "model": "block/ore_side_redstone", "y": 180, "x": 90 }
+		},
+		{
+			"when": { "lit": false },
+			"apply": { "model": "block/ore_side_redstone", "y": 180, "x": 270 }
+		},
+		{
+			"when": { "lit": true },
+			"apply": { "model": "block/ore_side_redstone_lit", "y": 0 }
+		},
+		{
+			"when": { "lit": true },
+			"apply": { "model": "block/ore_side_redstone_lit", "y": 90 }
+		},
+		{
+			"when": { "lit": true },
+			"apply": { "model": "block/ore_side_redstone_lit", "y": 180 }
+		},
+		{
+			"when": { "lit": true },
+			"apply": { "model": "block/ore_side_redstone_lit", "y": 270 }
+		},
+		{
+			"when": { "lit": true },
+			"apply": { "model": "block/ore_side_redstone_lit", "y": 180, "x": 90 }
+		},
+		{
+			"when": { "lit": true },
+			"apply": { "model": "block/ore_side_redstone_lit", "y": 180, "x": 270 }
+		},
+		{
+			"apply": [
+				{ "model": "block/stone" },
+				{ "model": "block/stone_mirrored" },
+				{ "model": "block/stone", "y": 180 },
+				{ "model": "block/stone_mirrored", "y": 180 }
+			]
+		}
+	]
+}

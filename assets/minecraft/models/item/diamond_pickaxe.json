@@ -1,0 +1,7 @@
+{
+	"parent": "item/generic_pickaxe",
+	"textures": {
+		"material": "dommy/item/pickaxe/diamond",
+		"handle": "dommy/item/pickaxe/handle_wooden"
+	}
+}

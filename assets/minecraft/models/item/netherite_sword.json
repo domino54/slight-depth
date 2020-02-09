@@ -1,0 +1,7 @@
+{
+	"parent": "item/generic_sword",
+	"textures": {
+		"material": "dommy/item/sword/netherite",
+		"handle": "dommy/item/sword/handle_netherite"
+	}
+}

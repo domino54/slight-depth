@@ -1,0 +1,6 @@
+{
+	"parent": "item/generic_book",
+	"textures": {
+		"book": "dommy/item/book/book"
+	}
+}

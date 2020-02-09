@@ -1,0 +1,7 @@
+{
+	"parent": "block/generic_ore_side_emerald",
+	"textures": {
+		"ore": "dommy/block/ores/ore_emerald",
+		"particle": "block/emerald_ore"
+	}
+}

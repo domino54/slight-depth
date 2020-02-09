@@ -1,0 +1,8 @@
+{
+	"parent": "block/generic_torch_standing",
+	"textures": {
+		"handle": "dommy/block/torch/handle",
+		"lit": "dommy/block/torch/redstone",
+		"particle": "block/redstone_torch"
+	}
+}

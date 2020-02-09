@@ -1,0 +1,7 @@
+{
+	"parent": "item/generic_hoe",
+	"textures": {
+		"material": "dommy/item/hoe/golden",
+		"handle": "dommy/item/hoe/handle_wooden"
+	}
+}

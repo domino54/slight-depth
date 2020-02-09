@@ -1,0 +1,6 @@
+{
+	"parent": "item/generic_ore",
+	"textures": {
+		"ore": "dommy/block/ores/ore_redstone"
+	}
+}

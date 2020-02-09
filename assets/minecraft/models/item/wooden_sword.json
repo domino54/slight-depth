@@ -1,0 +1,7 @@
+{
+	"parent": "item/generic_sword",
+	"textures": {
+		"material": "dommy/item/sword/wooden",
+		"handle": "dommy/item/sword/handle_wooden"
+	}
+}

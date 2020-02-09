@@ -1,0 +1,7 @@
+{
+	"parent": "item/generic_hoe",
+	"textures": {
+		"material": "dommy/item/hoe/netherite",
+		"handle": "dommy/item/hoe/handle_netherite"
+	}
+}

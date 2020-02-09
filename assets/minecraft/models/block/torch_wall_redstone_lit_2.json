@@ -1,0 +1,8 @@
+{
+	"parent": "block/generic_torch_wall_2",
+	"textures": {
+		"handle": "dommy/block/torch/handle",
+		"lit": "dommy/block/torch/redstone_lit",
+		"particle": "block/redstone_torch"
+	}
+}

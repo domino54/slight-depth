@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{ "model": "block/torch_standing_soul_fire", "y": 0 },
+			{ "model": "block/torch_standing_soul_fire", "y": 90 },
+			{ "model": "block/torch_standing_soul_fire", "y": 180 },
+			{ "model": "block/torch_standing_soul_fire", "y": 270 }
+		]
+	}
+}

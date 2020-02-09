@@ -1,0 +1,74 @@
+{
+	"multipart": [
+		{
+			"when": { "facing": "north", "lit": false },
+			"apply": { "model": "block/furnace_front" }
+		},
+		{
+			"when": { "facing": "east", "lit": false },
+			"apply": { "model": "block/furnace_front", "y": 90 }
+		},
+		{
+			"when": { "facing": "south", "lit": false },
+			"apply": { "model": "block/furnace_front", "y": 180 }
+		},
+		{
+			"when": { "facing": "west", "lit": false },
+			"apply": { "model": "block/furnace_front", "y": 270 }
+		},
+		{
+			"when": { "facing": "north", "lit": true },
+			"apply": { "model": "block/furnace_front_lit" }
+		},
+		{
+			"when": { "facing": "east", "lit": true },
+			"apply": { "model": "block/furnace_front_lit", "y": 90 }
+		},
+		{
+			"when": { "facing": "south", "lit": true },
+			"apply": { "model": "block/furnace_front_lit", "y": 180 }
+		},
+		{
+			"when": { "facing": "west", "lit": true },
+			"apply": { "model": "block/furnace_front_lit", "y": 270 }
+		},
+		{
+			"when": { "facing": "north", "lit": true },
+			"apply": { "model": "block/furnace_contents" }
+		},
+		{
+			"when": { "facing": "east", "lit": true },
+			"apply": { "model": "block/furnace_contents", "y": 90 }
+		},
+		{
+			"when": { "facing": "south", "lit": true },
+			"apply": { "model": "block/furnace_contents", "y": 180 }
+		},
+		{
+			"when": { "facing": "west", "lit": true },
+			"apply": { "model": "block/furnace_contents", "y": 270 }
+		},
+		{
+			"when": { "facing": "east|south|west" },
+			"apply": { "model": "block/generic_dispenser_side" }
+		},
+		{
+			"when": { "facing": "south|west|north" },
+			"apply": { "model": "block/generic_dispenser_side", "y": 90 }
+		},
+		{
+			"when": { "facing": "west|north|east" },
+			"apply": { "model": "block/generic_dispenser_side", "y": 180 }
+		},
+		{
+			"when": { "facing": "north|east|south" },
+			"apply": { "model": "block/generic_dispenser_side", "y": 270 }
+		},
+		{
+			"apply": { "model": "block/generic_dispenser_top" }
+		},
+		{
+			"apply": { "model": "block/generic_dispenser_top", "x": 180 }
+		}
+	]
+}

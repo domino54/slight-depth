@@ -1,0 +1,7 @@
+{
+	"parent": "item/generic_shovel",
+	"textures": {
+		"material": "dommy/item/shovel/diamond",
+		"handle": "dommy/item/shovel/handle_wooden"
+	}
+}

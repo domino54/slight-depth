@@ -1,0 +1,7 @@
+{
+	"parent": "item/generic_axe",
+	"textures": {
+		"material": "dommy/item/axe/diamond",
+		"handle": "dommy/item/axe/handle_wooden"
+	}
+}

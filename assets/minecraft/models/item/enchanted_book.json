@@ -1,0 +1,7 @@
+{
+	"parent": "item/generic_book_with_ribbon",
+	"textures": {
+		"book": "dommy/item/book/book",
+		"ribbon": "dommy/item/book/ribbon_enchanted_book"
+	}
+}

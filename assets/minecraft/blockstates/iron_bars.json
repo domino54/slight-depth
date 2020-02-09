@@ -1,0 +1,28 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{ "model": "block/iron_bars_post", "y": 0 },
+				{ "model": "block/iron_bars_post", "y": 90 },
+				{ "model": "block/iron_bars_post", "y": 180 },
+				{ "model": "block/iron_bars_post", "y": 270 }
+			]
+		},
+		{
+			"when": { "north": true },
+			"apply": { "model": "block/iron_bars_ne" }
+		},
+		{
+			"when": { "east": true },
+			"apply": { "model": "block/iron_bars_ne", "y": 90 }
+		},
+		{
+			"when": { "south": true },
+			"apply": { "model": "block/iron_bars_sw" }
+		},
+		{
+			"when": { "west": true },
+			"apply": { "model": "block/iron_bars_sw", "y": 90 }
+		}
+	]
+}

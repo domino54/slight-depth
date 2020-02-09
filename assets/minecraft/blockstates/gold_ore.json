@@ -1,0 +1,30 @@
+{
+	"multipart": [
+		{
+			"apply": { "model": "block/ore_side_gold", "y": 0 }
+		},
+		{
+			"apply": { "model": "block/ore_side_gold", "y": 90 }
+		},
+		{
+			"apply": { "model": "block/ore_side_gold", "y": 180 }
+		},
+		{
+			"apply": { "model": "block/ore_side_gold", "y": 270 }
+		},
+		{
+			"apply": { "model": "block/ore_side_gold", "y": 180, "x": 90 }
+		},
+		{
+			"apply": { "model": "block/ore_side_gold", "y": 180, "x": 270 }
+		},
+		{
+			"apply": [
+				{ "model": "block/stone" },
+				{ "model": "block/stone_mirrored" },
+				{ "model": "block/stone", "y": 180 },
+				{ "model": "block/stone_mirrored", "y": 180 }
+			]
+		}
+	]
+}

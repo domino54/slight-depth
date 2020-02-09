@@ -1,0 +1,7 @@
+{
+	"parent": "item/generic_axe",
+	"textures": {
+		"material": "dommy/item/axe/netherite",
+		"handle": "dommy/item/axe/handle_netherite"
+	}
+}

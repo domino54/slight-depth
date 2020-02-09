@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"lit=false": [
+			{ "model": "block/torch_standing_redstone", "y": 0 },
+			{ "model": "block/torch_standing_redstone", "y": 90 },
+			{ "model": "block/torch_standing_redstone", "y": 180 },
+			{ "model": "block/torch_standing_redstone", "y": 270 }
+		],
+		"lit=true": [
+			{ "model": "block/torch_standing_redstone_lit", "y": 0 },
+			{ "model": "block/torch_standing_redstone_lit", "y": 90 },
+			{ "model": "block/torch_standing_redstone_lit", "y": 180 },
+			{ "model": "block/torch_standing_redstone_lit", "y": 270 }
+		]
+	}
+}

@@ -1,0 +1,84 @@
+{
+	"multipart": [
+        {
+			"when": { "facing": "north" },
+			"apply": { "model": "block/dispenser_tube_horizontal" }
+		},
+		{
+			"when": { "facing": "east" },
+			"apply": { "model": "block/dispenser_tube_horizontal", "y": 90 }
+		},
+		{
+			"when": { "facing": "south" },
+			"apply": { "model": "block/dispenser_tube_horizontal", "y": 180 }
+		},
+		{
+			"when": { "facing": "west" },
+			"apply": { "model": "block/dispenser_tube_horizontal", "y": 270 }
+		},
+        {
+			"when": { "facing": "up" },
+			"apply": { "model": "block/dispenser_tube_vertical" }
+		},
+        {
+			"when": { "facing": "down" },
+			"apply": { "model": "block/dispenser_tube_vertical", "x": 180 }
+		},
+		{
+			"when": { "facing": "north", "triggered": false },
+			"apply": { "model": "block/generic_dispenser_face" }
+		},
+		{
+			"when": { "facing": "east", "triggered": false },
+			"apply": { "model": "block/generic_dispenser_face", "y": 90 }
+		},
+		{
+			"when": { "facing": "south", "triggered": false },
+			"apply": { "model": "block/generic_dispenser_face", "y": 180 }
+		},
+		{
+			"when": { "facing": "west", "triggered": false },
+			"apply": { "model": "block/generic_dispenser_face", "y": 270 }
+		},
+		{
+			"when": { "facing": "north", "triggered": true },
+			"apply": { "model": "block/generic_dispenser_face_on" }
+		},
+		{
+			"when": { "facing": "east", "triggered": true },
+			"apply": { "model": "block/generic_dispenser_face_on", "y": 90 }
+		},
+		{
+			"when": { "facing": "south", "triggered": true },
+			"apply": { "model": "block/generic_dispenser_face_on", "y": 180 }
+		},
+		{
+			"when": { "facing": "west", "triggered": true },
+			"apply": { "model": "block/generic_dispenser_face_on", "y": 270 }
+		},
+		{
+			"when": { "facing": "east|south|west|up|down" },
+			"apply": { "model": "block/generic_dispenser_side" }
+		},
+		{
+			"when": { "facing": "south|west|north|up|down" },
+			"apply": { "model": "block/generic_dispenser_side", "y": 90 }
+		},
+		{
+			"when": { "facing": "west|north|east|up|down" },
+			"apply": { "model": "block/generic_dispenser_side", "y": 180 }
+		},
+		{
+			"when": { "facing": "north|east|south|up|down" },
+			"apply": { "model": "block/generic_dispenser_side", "y": 270 }
+		},
+		{
+			"when": { "facing": "north|east|south|west|down" },
+			"apply": { "model": "block/generic_dispenser_top" }
+		},
+		{
+			"when": { "facing": "north|east|south|west|up" },
+			"apply": { "model": "block/generic_dispenser_top", "x": 180 }
+		}
+	]
+}

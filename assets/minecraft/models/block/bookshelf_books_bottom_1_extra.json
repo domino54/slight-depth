@@ -1,0 +1,6 @@
+{
+	"parent": "block/bookshelf_books_bottom_0_extra",
+	"textures": {
+		"books": "dommy/block/bookshelf/shelf_books_1"
+	}
+}

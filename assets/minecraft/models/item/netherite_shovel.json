@@ -1,0 +1,7 @@
+{
+	"parent": "item/generic_shovel",
+	"textures": {
+		"material": "dommy/item/shovel/netherite",
+		"handle": "dommy/item/shovel/handle_netherite"
+	}
+}
