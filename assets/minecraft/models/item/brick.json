@@ -1,0 +1,6 @@
+{
+	"parent": "item/generic_ingot",
+	"textures": {
+		"ingot": "dommy/item/ingot/brick"
+	}
+}
