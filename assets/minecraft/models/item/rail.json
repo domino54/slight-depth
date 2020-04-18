@@ -1,3 +1,3 @@
 {
-	"parent": "block/rail"
+	"parent": "minecraft:block/rail/base_straight"
 }

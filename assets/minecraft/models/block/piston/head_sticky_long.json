@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/piston/generic_head_long",
+	"textures": {
+		"head_side": "minecraft:block/piston/head_side_sticky",
+		"head_front": "minecraft:block/piston/head_front_sticky",
+		"particle": "minecraft:block/piston/head_front_sticky"
+	}
+}

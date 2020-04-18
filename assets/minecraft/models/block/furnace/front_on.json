@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/furnace/front_off",
+	"textures": {
+		"interior": "minecraft:block/furnace/interior_on",
+		"particle": "minecraft:block/furnace_front_on"
+	}
+}

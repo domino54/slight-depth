@@ -1,0 +1,33 @@
+{
+	"textures": {
+		"button": "minecraft:block/rail/button_off",
+		"particle": "minecraft:block/detector_rail"
+	},
+	"elements": [
+		{
+			"from": [5, 9, 5],
+			"to": [11, 9.5, 11],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [1, 0.5, 7, 1], "rotation": 180, "texture": "#button"},
+				"east": {"uv": [6, 1, 6.5, 7], "rotation": 90, "texture": "#button"},
+				"south": {"uv": [1, 7, 7, 7.5], "texture": "#button"},
+				"west": {"uv": [0.5, 1, 1, 7], "rotation": 270, "texture": "#button"},
+				"up": {"uv": [1, 1, 7, 7], "texture": "#button"},
+				"down": {"uv": [8, 7, 14, 1], "texture": "#button"}
+			}
+		},
+		{
+			"from": [6, 9, 6],
+			"to": [10, 10, 10],
+			"rotation": {"angle": 45, "axis": "x", "origin": [8, 9, 8]},
+			"faces": {
+				"north": {"uv": [1, 10.5, 5, 11], "rotation": 180, "texture": "#button"},
+				"east": {"uv": [5, 11, 5.5, 15], "rotation": 90, "texture": "#button"},
+				"south": {"uv": [1, 15, 5, 15.5], "texture": "#button"},
+				"west": {"uv": [0.5, 11, 1, 15], "rotation": 270, "texture": "#button"},
+				"up": {"uv": [1, 11, 5, 15], "texture": "#button"}
+			}
+		}
+	]
+}

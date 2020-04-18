@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"hanging=false": [
+			{ "model": "minecraft:block/lantern/standing_soul", "y": 0 },
+			{ "model": "minecraft:block/lantern/standing_soul", "y": 90 },
+			{ "model": "minecraft:block/lantern/standing_soul", "y": 180 },
+			{ "model": "minecraft:block/lantern/standing_soul", "y": 270 }
+		],
+		"hanging=true": [
+			{ "model": "minecraft:block/lantern/hanging_soul", "y": 0 },
+			{ "model": "minecraft:block/lantern/hanging_soul", "y": 90 },
+			{ "model": "minecraft:block/lantern/hanging_soul", "y": 180 },
+			{ "model": "minecraft:block/lantern/hanging_soul", "y": 270 }
+		]
+	}
+}

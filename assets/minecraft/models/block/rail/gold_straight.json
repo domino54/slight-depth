@@ -1,0 +1,30 @@
+{
+	"textures": {
+		"gold": "minecraft:block/rail/gold_straight",
+		"particle": "minecraft:block/powered_rail"
+	},
+	"elements": [
+		{
+			"from": [4, 1, 0],
+			"to": [5, 2, 16],
+			"faces": {
+				"north": {"uv": [15, 3, 16, 4], "texture": "#gold", "cullface": "north"},
+				"east": {"uv": [0, 1, 16, 2], "texture": "#gold"},
+				"south": {"uv": [0, 3, 1, 4], "texture": "#gold", "cullface": "south"},
+				"up": {"uv": [0, 0, 16, 1], "rotation": 270, "texture": "#gold"},
+				"down": {"uv": [0, 2, 16, 3], "rotation": 90, "texture": "#gold"}
+			}
+		},
+		{
+			"from": [11, 1, 0],
+			"to": [12, 2, 16],
+			"faces": {
+				"north": {"uv": [16, 3, 15, 4], "texture": "#gold", "cullface": "north"},
+				"south": {"uv": [1, 3, 0, 4], "texture": "#gold", "cullface": "south"},
+				"west": {"uv": [16, 1, 0, 2], "texture": "#gold"},
+				"up": {"uv": [0, 1, 16, 0], "rotation": 270, "texture": "#gold"},
+				"down": {"uv": [0, 3, 16, 2], "rotation": 90, "texture": "#gold"}
+			}
+		}
+	]
+}

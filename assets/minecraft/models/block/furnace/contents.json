@@ -1,0 +1,31 @@
+{
+	"textures": {
+		"contents": "minecraft:block/furnace/contents"
+	},
+	"elements": [
+		{
+			"from": [10, 9, 5.6875],
+			"to": [12, 10, 8.6875],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [1, 4, 3, 5], "texture": "#contents", "cullface": "north"},
+				"east": {"uv": [0, 1, 1, 4], "rotation": 270, "texture": "#contents", "cullface": "north"},
+				"south": {"uv": [1, 0, 3, 1], "texture": "#contents", "cullface": "north"},
+				"west": {"uv": [3, 1, 4, 4], "rotation": 90, "texture": "#contents", "cullface": "north"},
+				"up": {"uv": [1, 1, 3, 4], "rotation": 180, "texture": "#contents", "cullface": "north"}
+			}
+		},
+		{
+			"from": [4.78125, 9, 7],
+			"to": [6.78125, 10, 10],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [1, 4, 3, 5], "texture": "#contents", "cullface": "north"},
+				"east": {"uv": [0, 1, 1, 4], "rotation": 270, "texture": "#contents", "cullface": "north"},
+				"south": {"uv": [1, 0, 3, 1], "texture": "#contents", "cullface": "north"},
+				"west": {"uv": [3, 1, 4, 4], "rotation": 90, "texture": "#contents", "cullface": "north"},
+				"up": {"uv": [1, 1, 3, 4], "rotation": 180, "texture": "#contents", "cullface": "north"}
+			}
+		}
+	]
+}

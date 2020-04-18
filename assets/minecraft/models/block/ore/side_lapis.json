@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/ore/generic_side_lapis",
+	"textures": {
+		"ore": "minecraft:block/ore/lapis",
+		"particle": "minecraft:block/lapis_ore"
+	}
+}

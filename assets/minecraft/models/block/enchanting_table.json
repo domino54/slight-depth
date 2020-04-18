@@ -1,10 +1,10 @@
 {
-	"parent": "block/block",
+	"parent": "minecraft:block/block",
 	"textures": {
-		"obsidian": "block/obsidian",
-		"corners": "dommy/block/enchanting_table/corners",
-		"tablecloth": "dommy/block/enchanting_table/tablecloth",
-		"particle": "block/enchanting_table_side"
+		"obsidian": "minecraft:block/obsidian",
+		"corners": "minecraft:block/enchanting_table/corners",
+		"tablecloth": "minecraft:block/enchanting_table/tablecloth",
+		"particle": "minecraft:block/enchanting_table_side"
 	},
 	"ambientocclusion": false,
 	"elements": [

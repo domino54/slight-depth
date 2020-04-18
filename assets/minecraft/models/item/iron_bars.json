@@ -23,7 +23,7 @@
 		}
 	},
 	"textures": {
-		"bars": "dommy/block/misc/iron_bars"
+		"bars": "minecraft:block/iron_bars"
 	},
 	"elements": [
 		{

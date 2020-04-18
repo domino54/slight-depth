@@ -1,7 +1,8 @@
 {
-	"parent": "item/generic_hoe",
+	"parent": "minecraft:item/generic_hoe",
 	"textures": {
-		"material": "dommy/item/hoe/stone",
-		"handle": "dommy/item/hoe/handle_wooden"
+		"material": "minecraft:item/hoe/stone",
+		"handle": "minecraft:item/hoe/handle_wooden",
+		"particle": "minecraft:item/stone_hoe"
 	}
 }

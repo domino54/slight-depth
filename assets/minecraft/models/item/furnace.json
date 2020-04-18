@@ -1,11 +1,11 @@
 {
-	"parent": "block/block",
+	"parent": "minecraft:block/block",
 	"textures": {
-		"front": "dommy/block/furnace/front",
-		"depth": "dommy/block/furnace/depth",
-		"interior": "dommy/block/furnace/interior",
-		"side": "dommy/block/dispenser/side",
-		"top": "dommy/block/dispenser/top"
+		"front": "minecraft:block/furnace/front",
+		"depth": "minecraft:block/furnace/depth",
+		"interior": "minecraft:block/furnace/interior_off",
+		"side": "minecraft:block/furnace/side",
+		"top": "minecraft:block/furnace/top"
 	},
 	"elements": [
 		{

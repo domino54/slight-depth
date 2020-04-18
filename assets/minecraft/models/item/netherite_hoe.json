@@ -1,7 +1,8 @@
 {
-	"parent": "item/generic_hoe",
+	"parent": "minecraft:item/generic_hoe",
 	"textures": {
-		"material": "dommy/item/hoe/netherite",
-		"handle": "dommy/item/hoe/handle_netherite"
+		"material": "minecraft:item/hoe/netherite",
+		"handle": "minecraft:item/hoe/handle_netherite",
+		"particle": "minecraft:item/netherite_hoe"
 	}
 }

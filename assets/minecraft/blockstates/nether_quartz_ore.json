@@ -1,41 +1,41 @@
 {
 	"multipart": [
 		{
-			"apply": { "model": "block/ore_side_nether_quartz", "y": 0 }
+			"apply": { "model": "minecraft:block/ore/side_nether_quartz", "y": 0 }
 		},
 		{
-			"apply": { "model": "block/ore_side_nether_quartz", "y": 90 }
+			"apply": { "model": "minecraft:block/ore/side_nether_quartz", "y": 90 }
 		},
 		{
-			"apply": { "model": "block/ore_side_nether_quartz", "y": 180 }
+			"apply": { "model": "minecraft:block/ore/side_nether_quartz", "y": 180 }
 		},
 		{
-			"apply": { "model": "block/ore_side_nether_quartz", "y": 270 }
+			"apply": { "model": "minecraft:block/ore/side_nether_quartz", "y": 270 }
 		},
 		{
-			"apply": { "model": "block/ore_side_nether_quartz", "y": 180, "x": 90 }
+			"apply": { "model": "minecraft:block/ore/side_nether_quartz", "y": 180, "x": 90 }
 		},
 		{
-			"apply": { "model": "block/ore_side_nether_quartz", "y": 180, "x": 270 }
+			"apply": { "model": "minecraft:block/ore/side_nether_quartz", "y": 180, "x": 270 }
 		},
 		{
 			"apply": [
-				{ "model": "block/netherrack" },
-				{ "model": "block/netherrack", "x": 90 },
-				{ "model": "block/netherrack", "x": 180 },
-				{ "model": "block/netherrack", "x": 270 },
-				{ "model": "block/netherrack", "y": 90 },
-				{ "model": "block/netherrack", "y": 90, "x": 90 },
-				{ "model": "block/netherrack", "y": 90, "x": 180 },
-				{ "model": "block/netherrack", "y": 90, "x": 270 },
-				{ "model": "block/netherrack", "y": 180 },
-				{ "model": "block/netherrack", "y": 180, "x": 90 },
-				{ "model": "block/netherrack", "y": 180, "x": 180 },
-				{ "model": "block/netherrack", "y": 180, "x": 270 },
-				{ "model": "block/netherrack", "y": 270 },
-				{ "model": "block/netherrack", "y": 270, "x": 90 },
-				{ "model": "block/netherrack", "y": 270, "x": 180 },
-				{ "model": "block/netherrack", "y": 270, "x": 270 }
+				{ "model": "minecraft:block/netherrack" },
+				{ "model": "minecraft:block/netherrack", "x": 90 },
+				{ "model": "minecraft:block/netherrack", "x": 180 },
+				{ "model": "minecraft:block/netherrack", "x": 270 },
+				{ "model": "minecraft:block/netherrack", "y": 90 },
+				{ "model": "minecraft:block/netherrack", "y": 90, "x": 90 },
+				{ "model": "minecraft:block/netherrack", "y": 90, "x": 180 },
+				{ "model": "minecraft:block/netherrack", "y": 90, "x": 270 },
+				{ "model": "minecraft:block/netherrack", "y": 180 },
+				{ "model": "minecraft:block/netherrack", "y": 180, "x": 90 },
+				{ "model": "minecraft:block/netherrack", "y": 180, "x": 180 },
+				{ "model": "minecraft:block/netherrack", "y": 180, "x": 270 },
+				{ "model": "minecraft:block/netherrack", "y": 270 },
+				{ "model": "minecraft:block/netherrack", "y": 270, "x": 90 },
+				{ "model": "minecraft:block/netherrack", "y": 270, "x": 180 },
+				{ "model": "minecraft:block/netherrack", "y": 270, "x": 270 }
 			]
 		}
 	]

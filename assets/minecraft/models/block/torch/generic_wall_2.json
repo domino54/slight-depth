@@ -1,0 +1,33 @@
+{
+	"textures": {
+		"handle": "minecraft:block/torch/handle"
+	},
+	"elements": [
+		{
+			"from": [6.75, 11.25, 14.75],
+			"to": [9.25, 13.75, 17.25],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.5, 17]},
+			"faces": {
+				"north": {"uv": [4, 2, 6, 4], "texture": "#lit"},
+				"east": {"uv": [2, 2, 4, 4], "texture": "#lit"},
+				"south": {"uv": [0, 2, 2, 4], "texture": "#lit"},
+				"west": {"uv": [6, 2, 8, 4], "texture": "#lit"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#lit"},
+				"down": {"uv": [0, 4, 2, 6], "texture": "#lit"}
+			}
+		},
+		{
+			"from": [7, 4.5, 15],
+			"to": [9, 14.5, 17],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.5, 17]},
+			"faces": {
+				"north": {"uv": [4, 2, 6, 12], "texture": "#handle"},
+				"east": {"uv": [2, 2, 4, 12], "texture": "#handle"},
+				"south": {"uv": [0, 2, 2, 12], "texture": "#handle"},
+				"west": {"uv": [6, 2, 8, 12], "texture": "#handle"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#handle"},
+				"down": {"uv": [0, 12, 2, 14], "texture": "#handle"}
+			}
+		}
+	]
+}

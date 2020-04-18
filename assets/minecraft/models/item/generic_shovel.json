@@ -1,5 +1,5 @@
 {
-	"parent": "item/generic_tool_display",
+	"parent": "minecraft:item/generic_tool_display",
 	"elements": [
 		{
 			"from": [8.293, 0.2928, 7.005],

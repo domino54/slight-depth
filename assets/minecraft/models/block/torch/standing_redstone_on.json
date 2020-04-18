@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/torch/generic_standing",
+	"textures": {
+		"lit": "minecraft:block/torch/redstone_on",
+		"particle": "minecraft:block/redstone_torch"
+	}
+}

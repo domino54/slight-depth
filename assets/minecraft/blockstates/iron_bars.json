@@ -2,27 +2,27 @@
 	"multipart": [
 		{
 			"apply": [
-				{ "model": "block/iron_bars_post", "y": 0 },
-				{ "model": "block/iron_bars_post", "y": 90 },
-				{ "model": "block/iron_bars_post", "y": 180 },
-				{ "model": "block/iron_bars_post", "y": 270 }
+				{ "model": "minecraft:block/iron_bars/post", "y": 0 },
+				{ "model": "minecraft:block/iron_bars/post", "y": 90 },
+				{ "model": "minecraft:block/iron_bars/post", "y": 180 },
+				{ "model": "minecraft:block/iron_bars/post", "y": 270 }
 			]
 		},
 		{
 			"when": { "north": true },
-			"apply": { "model": "block/iron_bars_ne" }
+			"apply": { "model": "minecraft:block/iron_bars/north_east", "y": 0 }
 		},
 		{
 			"when": { "east": true },
-			"apply": { "model": "block/iron_bars_ne", "y": 90 }
+			"apply": { "model": "minecraft:block/iron_bars/north_east", "y": 90 }
 		},
 		{
 			"when": { "south": true },
-			"apply": { "model": "block/iron_bars_sw" }
+			"apply": { "model": "minecraft:block/iron_bars/south_west", "y": 0 }
 		},
 		{
 			"when": { "west": true },
-			"apply": { "model": "block/iron_bars_sw", "y": 90 }
+			"apply": { "model": "minecraft:block/iron_bars/south_west", "y": 90 }
 		}
 	]
 }

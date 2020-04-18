@@ -1,6 +1,0 @@
-{
-	"parent": "block/generic_dispenser_face",
-	"textures": {
-		"eyes": "dommy/block/dispenser/eyes_on"
-	}
-}

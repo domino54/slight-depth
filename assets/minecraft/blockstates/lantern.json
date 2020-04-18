@@ -1,0 +1,16 @@
+{
+	"variants": {
+		"hanging=false": [
+			{ "model": "minecraft:block/lantern/standing_normal", "y": 0 },
+			{ "model": "minecraft:block/lantern/standing_normal", "y": 90 },
+			{ "model": "minecraft:block/lantern/standing_normal", "y": 180 },
+			{ "model": "minecraft:block/lantern/standing_normal", "y": 270 }
+		],
+		"hanging=true": [
+			{ "model": "minecraft:block/lantern/hanging_normal", "y": 0 },
+			{ "model": "minecraft:block/lantern/hanging_normal", "y": 90 },
+			{ "model": "minecraft:block/lantern/hanging_normal", "y": 180 },
+			{ "model": "minecraft:block/lantern/hanging_normal", "y": 270 }
+		]
+	}
+}

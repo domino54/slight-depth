@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:block/fungus/generic_display",
+	"textures": {
+		"top": "minecraft:block/fungus/crimson_top",
+		"side": "minecraft:block/fungus/crimson_sides",
+		"bottom": "minecraft:block/fungus/crimson_underside",
+		"stem": "minecraft:block/fungus/crimson_stem",
+		"particle": "minecraft:block/crimson_fungus"
+  }
+}

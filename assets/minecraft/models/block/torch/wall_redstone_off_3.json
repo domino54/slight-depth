@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/torch/generic_wall_3",
+	"textures": {
+		"lit": "minecraft:block/torch/redstone_off",
+		"particle": "minecraft:block/redstone_torch"
+	}
+}

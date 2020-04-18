@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/bookshelf/generic_planks",
+	"textures": {
+		"planks": "minecraft:block/oak_planks"
+	}
+}

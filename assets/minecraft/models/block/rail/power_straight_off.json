@@ -1,0 +1,110 @@
+{
+	"textures": {
+		"power": "minecraft:block/rail/power_off",
+		"particle": "minecraft:block/activator_rail"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 3],
+			"to": [9, 0.5, 13],
+			"faces": {
+				"east": {"uv": [3, 0, 3.5, 10], "rotation": 90, "texture": "#power"},
+				"west": {"uv": [0.5, 0, 1, 10], "rotation": 270, "texture": "#power"},
+				"up": {"uv": [1, 0, 3, 10], "texture": "#power"},
+				"down": {"uv": [4, 0, 6, 10], "rotation": 180, "texture": "#power", "cullface": "down"}
+			}
+		},
+		{
+			"from": [4, 1, 1],
+			"to": [6, 1.5, 3],
+			"faces": {
+				"north": {"uv": [10, 0.5, 12, 1], "rotation": 180, "texture": "#power"},
+				"east": {"uv": [12, 1, 12.5, 3], "rotation": 90, "texture": "#power"},
+				"south": {"uv": [10, 3, 12, 3.5], "texture": "#power"},
+				"up": {"uv": [10, 1, 12, 3], "texture": "#power"}
+			}
+		},
+		{
+			"from": [4, 1, 5],
+			"to": [6, 1.5, 7],
+			"faces": {
+				"north": {"uv": [10, 4.5, 12, 5], "rotation": 180, "texture": "#power"},
+				"east": {"uv": [12, 5, 12.5, 7], "rotation": 90, "texture": "#power"},
+				"south": {"uv": [10, 7, 12, 7.5], "texture": "#power"},
+				"up": {"uv": [10, 5, 12, 7], "texture": "#power"}
+			}
+		},
+		{
+			"from": [4, 1, 9],
+			"to": [6, 1.5, 11],
+			"faces": {
+				"north": {"uv": [10, 8.5, 12, 9], "rotation": 180, "texture": "#power"},
+				"east": {"uv": [12, 9, 12.5, 11], "rotation": 90, "texture": "#power"},
+				"south": {"uv": [10, 11, 12, 11.5], "texture": "#power"},
+				"up": {"uv": [10, 9, 12, 11], "texture": "#power"}
+			}
+		},
+		{
+			"from": [4, 1, 13],
+			"to": [6, 1.5, 15],
+			"faces": {
+				"north": {"uv": [10, 12.5, 12, 13], "rotation": 180, "texture": "#power"},
+				"east": {"uv": [12, 13, 12.5, 15], "rotation": 90, "texture": "#power"},
+				"south": {"uv": [10, 15, 12, 15.5], "texture": "#power"},
+				"up": {"uv": [10, 13, 12, 15], "texture": "#power"}
+			}
+		},
+		{
+			"from": [10, 1, 1],
+			"to": [12, 1.5, 3],
+			"faces": {
+				"north": {"uv": [10, 0.5, 12, 1], "rotation": 180, "texture": "#power"},
+				"south": {"uv": [10, 3, 12, 3.5], "texture": "#power"},
+				"west": {"uv": [13.5, 1, 14, 3], "rotation": 270, "texture": "#power"},
+				"up": {"uv": [10, 1, 12, 3], "texture": "#power"}
+			}
+		},
+		{
+			"from": [10, 1, 5],
+			"to": [12, 1.5, 7],
+			"faces": {
+				"north": {"uv": [10, 4.5, 12, 5], "rotation": 180, "texture": "#power"},
+				"south": {"uv": [10, 7, 12, 7.5], "texture": "#power"},
+				"west": {"uv": [13.5, 5, 14, 7], "rotation": 270, "texture": "#power"},
+				"up": {"uv": [10, 5, 12, 7], "texture": "#power"}
+			}
+		},
+		{
+			"from": [10, 1, 9],
+			"to": [12, 1.5, 11],
+			"faces": {
+				"north": {"uv": [10, 8.5, 12, 9], "rotation": 180, "texture": "#power"},
+				"south": {"uv": [10, 11, 12, 11.5], "texture": "#power"},
+				"west": {"uv": [13.5, 9, 14, 11], "rotation": 270, "texture": "#power"},
+				"up": {"uv": [10, 9, 12, 11], "texture": "#power"}
+			}
+		},
+		{
+			"from": [10, 1, 13],
+			"to": [12, 1.5, 15],
+			"faces": {
+				"north": {"uv": [10, 12.5, 12, 13], "rotation": 180, "texture": "#power"},
+				"south": {"uv": [10, 15, 12, 15.5], "texture": "#power"},
+				"west": {"uv": [13.5, 13, 14, 15], "rotation": 270, "texture": "#power"},
+				"up": {"uv": [10, 13, 12, 15], "texture": "#power"}
+			}
+		}
+	],
+	"groups": [0,
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"children": [1, 2, 3, 4]
+		},
+		{
+			"name": "group",
+			"origin": [8, 8, 8],
+			"children": [5, 6, 7, 8]
+		}
+	]
+}

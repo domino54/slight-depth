@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/bookshelf/generic_books_top_normal",
+	"textures": {
+		"books": "minecraft:block/bookshelf/books_0"
+	}
+}

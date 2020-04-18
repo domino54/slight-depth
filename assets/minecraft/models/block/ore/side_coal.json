@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/ore/generic_side_normal",
+	"textures": {
+		"ore": "minecraft:block/ore/coal",
+		"particle": "minecraft:block/coal_ore"
+	}
+}

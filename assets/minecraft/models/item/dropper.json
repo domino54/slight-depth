@@ -1,11 +1,11 @@
 {
-	"parent": "block/block",
+	"parent": "minecraft:block/block",
 	"textures": {
-		"side": "dommy/block/dispenser/side",
-		"face": "dommy/block/dispenser/face",
-		"eyes": "dommy/block/dispenser/eyes_off",
-		"top": "dommy/block/dispenser/top",
-		"tube": "dommy/block/dispenser/tube"
+		"top": "minecraft:block/furnace/top",
+		"side": "minecraft:block/furnace/side",
+		"face": "minecraft:block/dispenser/face",
+		"eyes": "minecraft:block/dispenser/eyes_off",
+		"tube": "minecraft:block/dispenser/tube"
 	},
 	"elements": [
 		{

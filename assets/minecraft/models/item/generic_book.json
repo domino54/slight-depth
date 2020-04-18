@@ -1,5 +1,5 @@
 {
-	"parent": "item/generic_book_display",
+	"parent": "minecraft:item/generic_book_display",
 	"elements": [
 		{
 			"from": [11.5, 2, 7],

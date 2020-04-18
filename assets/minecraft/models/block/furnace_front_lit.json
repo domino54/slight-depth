@@ -1,7 +1,0 @@
-{
-	"parent": "block/furnace_front",
-	"textures": {
-		"interior": "dommy/block/furnace/interior_lit",
-		"particle": "block/furnace_front_on"
-	}
-}

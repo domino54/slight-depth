@@ -1,0 +1,58 @@
+{
+	"textures": {
+		"base_back": "minecraft:block/furnace/top",
+		"base_inner": "minecraft:block/piston/base_inner_ring"
+	},
+	"elements": [
+		{
+			"from": [1, 1, 4.5],
+			"to": [15, 15, 4.5],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 15], "texture": "#base_back"}
+			}
+		},
+		{
+			"from": [1, 15, 4],
+			"to": [15, 16, 4.5],
+			"faces": {
+				"north": {"uv": [1, 0, 15, 1], "texture": "#base_back"},
+				"down": {"uv": [15, 1, 1, 0], "texture": "#base_back"}
+			}
+		},
+		{
+			"from": [1, 0, 4],
+			"to": [15, 1, 4.5],
+			"faces": {
+				"north": {"uv": [1, 15, 15, 16], "texture": "#base_back"},
+				"up": {"uv": [15, 16, 1, 15.5], "texture": "#base_back"}
+			}
+		},
+		{
+			"from": [15, 0, 4],
+			"to": [16, 16, 4.5],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#base_back"},
+				"west": {"uv": [0, 0, 0.5, 16], "texture": "#base_back"}
+			}
+		},
+		{
+			"from": [0, 0, 4],
+			"to": [1, 16, 4.5],
+			"faces": {
+				"north": {"uv": [15, 0, 16, 16], "texture": "#base_back"},
+				"east": {"uv": [15.5, 0, 16, 16], "texture": "#base_back"}
+			}
+		},
+		{
+			"from": [5, 5, 4],
+			"to": [11, 11, 4.5],
+			"faces": {
+				"north": {"uv": [5, 5, 11, 11], "texture": "#base_inner"},
+				"east": {"uv": [4.5, 5, 5, 11], "texture": "#base_inner"},
+				"west": {"uv": [11, 5, 11.5, 11], "texture": "#base_inner"},
+				"up": {"uv": [5, 4.5, 11, 5], "rotation": 180, "texture": "#base_inner"},
+				"down": {"uv": [5, 11, 11, 11.5], "rotation": 180, "texture": "#base_inner"}
+			}
+		}
+	]
+}

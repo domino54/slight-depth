@@ -1,8 +1,8 @@
 {
-	"parent": "item/generic_book_display",
+	"parent": "minecraft:item/generic_book_display",
 	"textures": {
-		"book": "dommy/item/book/writable_book",
-		"feather": "item/feather"
+		"book": "minecraft:item/book/writable_book",
+		"feather": "minecraft:item/feather"
 	},
 	"elements": [
 		{

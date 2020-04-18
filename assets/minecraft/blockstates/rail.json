@@ -1,41 +1,34 @@
 {
 	"variants": {
 		"shape=north_south": {
-			"model": "block/rail"
-		},
+			"model": "minecraft:block/rail/base_straight", "y": 0
+        },
 		"shape=east_west": {
-			"model": "block/rail",
-			"y": 90
-		},
+			"model": "minecraft:block/rail/base_straight", "y": 90
+        },
 		"shape=south_east": {
-			"model": "block/rail_corner"
+			"model": "minecraft:block/rail/base_corner", "y": 0
 		},
 		"shape=south_west": {
-			"model": "block/rail_corner",
-			"y": 90
+			"model": "minecraft:block/rail/base_corner", "y": 90
 		},
 		"shape=north_west": {
-			"model": "block/rail_corner",
-			"y": 180
+			"model": "minecraft:block/rail/base_corner", "y": 180
 		},
 		"shape=north_east": {
-			"model": "block/rail_corner",
-			"y": 270
+			"model": "minecraft:block/rail/base_corner", "y": 270
 		},
 		"shape=ascending_north": {
-			"model": "block/rail_ascending"
+			"model": "minecraft:block/rail/base_slope", "y": 0
 		},
 		"shape=ascending_east": {
-			"model": "block/rail_ascending",
-			"y": 90
+			"model": "minecraft:block/rail/base_slope", "y": 90
 		},
 		"shape=ascending_south": {
-			"model": "block/rail_ascending",
-			"y": 180
+			"model": "minecraft:block/rail/base_slope", "y": 180
 		},
 		"shape=ascending_west": {
-			"model": "block/rail_ascending",
-			"y": 270
+			"model": "minecraft:block/rail/base_slope", "y": 270
 		}
 	}
 }

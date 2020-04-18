@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/tulip/generic_leaf_straight",
+	"textures": {
+		"leaf": "minecraft:block/tulip/leaf_5"
+	}
+}

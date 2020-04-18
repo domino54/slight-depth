@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generic_ore_nether_gold",
+	"textures": {
+		"ore": "minecraft:block/ore/nether_gold"
+	}
+}

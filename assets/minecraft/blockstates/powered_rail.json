@@ -2,99 +2,99 @@
 	"multipart": [
 		{
 			"when": { "shape": "north_south" },
-			"apply": { "model": "block/powered_rail" }
+			"apply": { "model": "minecraft:block/rail/gold_straight", "y": 0 }
 		},
 		{
 			"when": { "shape": "east_west" },
-			"apply": { "model": "block/powered_rail", "y": 90 }
+			"apply": { "model": "minecraft:block/rail/gold_straight", "y": 90 }
 		},
 		{
 			"when": { "shape": "ascending_north" },
-			"apply": { "model": "block/powered_rail_ascending" }
+			"apply": { "model": "minecraft:block/rail/gold_slope", "y": 0 }
 		},
 		{
 			"when": { "shape": "ascending_east" },
-			"apply": { "model": "block/powered_rail_ascending", "y": 90 }
+			"apply": { "model": "minecraft:block/rail/gold_slope", "y": 90 }
 		},
 		{
 			"when": { "shape": "ascending_south" },
-			"apply": { "model": "block/powered_rail_ascending", "y": 180 }
+			"apply": { "model": "minecraft:block/rail/gold_slope", "y": 180 }
 		},
 		{
 			"when": { "shape": "ascending_west" },
-			"apply": { "model": "block/powered_rail_ascending", "y": 270 }
+			"apply": { "model": "minecraft:block/rail/gold_slope", "y": 270 }
 		},
 		{
 			"when": { "shape": "north_south", "powered": false },
-			"apply": { "model": "block/activator_rail" }
+			"apply": { "model": "minecraft:block/rail/power_straight_off", "y": 0 }
 		},
 		{
 			"when": { "shape": "east_west", "powered": false },
-			"apply": { "model": "block/activator_rail", "y": 90 }
+			"apply": { "model": "minecraft:block/rail/power_straight_off", "y": 90 }
 		},
 		{
 			"when": { "shape": "ascending_north", "powered": false },
-			"apply": { "model": "block/activator_rail_ascending" }
+			"apply": { "model": "minecraft:block/rail/power_slope_off", "y": 0 }
 		},
 		{
 			"when": { "shape": "ascending_east", "powered": false },
-			"apply": { "model": "block/activator_rail_ascending", "y": 90 }
+			"apply": { "model": "minecraft:block/rail/power_slope_off", "y": 90 }
 		},
 		{
 			"when": { "shape": "ascending_south", "powered": false },
-			"apply": { "model": "block/activator_rail_ascending", "y": 180 }
+			"apply": { "model": "minecraft:block/rail/power_slope_off", "y": 180 }
 		},
 		{
 			"when": { "shape": "ascending_west", "powered": false },
-			"apply": { "model": "block/activator_rail_ascending", "y": 270 }
+			"apply": { "model": "minecraft:block/rail/power_slope_off", "y": 270 }
 		},
 		{
 			"when": { "shape": "north_south", "powered": true },
-			"apply": { "model": "block/activator_rail_on" }
+			"apply": { "model": "minecraft:block/rail/power_straight_on", "y": 0 }
 		},
 		{
 			"when": { "shape": "east_west", "powered": true },
-			"apply": { "model": "block/activator_rail_on", "y": 90 }
+			"apply": { "model": "minecraft:block/rail/power_straight_on", "y": 90 }
 		},
 		{
 			"when": { "shape": "ascending_north", "powered": true },
-			"apply": { "model": "block/activator_rail_on_ascending" }
+			"apply": { "model": "minecraft:block/rail/power_slope_on", "y": 0 }
 		},
 		{
 			"when": { "shape": "ascending_east", "powered": true },
-			"apply": { "model": "block/activator_rail_on_ascending", "y": 90 }
+			"apply": { "model": "minecraft:block/rail/power_slope_on", "y": 90 }
 		},
 		{
 			"when": { "shape": "ascending_south", "powered": true },
-			"apply": { "model": "block/activator_rail_on_ascending", "y": 180 }
+			"apply": { "model": "minecraft:block/rail/power_slope_on", "y": 180 }
 		},
 		{
 			"when": { "shape": "ascending_west", "powered": true },
-			"apply": { "model": "block/activator_rail_on_ascending", "y": 270 }
+			"apply": { "model": "minecraft:block/rail/power_slope_on", "y": 270 }
 		},
 		{
 			"when": { "shape": "north_south" },
-			"apply": { "model": "block/rail" }
+			"apply": { "model": "minecraft:block/rail/base_straight", "y": 0 }
 		},
 		{
 			"when": { "shape": "east_west" },
-			"apply": { "model": "block/rail", "y": 90 }
+			"apply": { "model": "minecraft:block/rail/base_straight", "y": 90 }
 		},
 		{
 			"when": { "shape": "ascending_north" },
-			"apply": { "model": "block/rail_ascending" }
+			"apply": { "model": "minecraft:block/rail/base_slope", "y": 0 }
 		},
 		{
 			"when": { "shape": "ascending_east" },
-			"apply": { "model": "block/rail_ascending", "y": 90 }
+			"apply": { "model": "minecraft:block/rail/base_slope", "y": 90 }
 		},
 		{
 			"when": { "shape": "ascending_south" },
-			"apply": { "model": "block/rail_ascending", "y": 180 }
+			"apply": { "model": "minecraft:block/rail/base_slope", "y": 180 }
 		},
 		{
 			"when": { "shape": "ascending_west" },
-			"apply": { "model": "block/rail_ascending", "y": 270 }
+			"apply": { "model": "minecraft:block/rail/base_slope", "y": 270 }
 		}
 	]
 }

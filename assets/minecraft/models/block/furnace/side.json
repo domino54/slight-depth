@@ -1,0 +1,54 @@
+{
+	"textures": {
+		"side": "minecraft:block/furnace/side"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [1, 16, 0.5],
+			"faces": {
+				"north": {"uv": [15, 0, 16, 16], "texture": "#side", "cullface": "north"},
+				"east": {"uv": [15.5, 0, 16, 16], "texture": "#side", "cullface": "north"}
+			}
+		},
+		{
+			"from": [15, 0, 0],
+			"to": [16, 16, 0.5],
+			"faces": {
+				"north": {"uv": [0, 0, 1, 16], "texture": "#side", "cullface": "north"},
+				"west": {"uv": [0, 0, 0.5, 16], "texture": "#side", "cullface": "north"}
+			}
+		},
+		{
+			"from": [1, 0, 0],
+			"to": [15, 1, 0.25],
+			"faces": {
+				"north": {"uv": [1, 15, 15, 16], "texture": "#side", "cullface": "north"},
+				"up": {"uv": [15, 16, 1, 15.75], "texture": "#side", "cullface": "north"}
+			}
+		},
+		{
+			"from": [1, 15, 0],
+			"to": [15, 16, 0.5],
+			"faces": {
+				"north": {"uv": [1, 0, 15, 1], "texture": "#side", "cullface": "north"},
+				"down": {"uv": [15, 0.5, 1, 0], "texture": "#side", "cullface": "north"}
+			}
+		},
+		{
+			"from": [1, 1, 0.25],
+			"to": [15, 7, 0.5],
+			"faces": {
+				"north": {"uv": [1, 9, 15, 15], "texture": "#side", "cullface": "north"},
+				"up": {"uv": [1, 9, 15, 9.25], "texture": "#side", "cullface": "north"}
+			}
+		},
+		{
+			"from": [1, 7, 0.5],
+			"to": [15, 15, 0.5],
+			"faces": {
+				"north": {"uv": [1, 1, 15, 9], "texture": "#side", "cullface": "north"}
+			}
+		}
+	]
+}

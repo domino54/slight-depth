@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/lantern/generic_hanging",
+	"textures": {
+		"glass": "minecraft:block/lantern/glass_soul",
+		"edges": "minecraft:block/lantern/edges_soul",
+		"particle": "minecraft:item/soul_fire_lantern"
+	}
+}

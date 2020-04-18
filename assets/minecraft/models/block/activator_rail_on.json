@@ -1,7 +1,0 @@
-{
-	"parent": "block/activator_rail",
-	"textures": {
-		"power": "dommy/block/rail/power_on",
-		"particle": "block/activator_rail_on"
-	}
-}

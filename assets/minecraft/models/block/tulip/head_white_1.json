@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/tulip/generic_head_1",
+	"textures": {
+		"head": "minecraft:block/tulip/head_white",
+		"particle": "minecraft:block/white_tulip"
+	}
+}

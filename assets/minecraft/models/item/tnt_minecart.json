@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:item/generic_minecart_with_block",
+	"textures": {
+    "side": "minecraft:block/tnt_side",
+		"up": "minecraft:block/tnt_top",
+		"down": "minecraft:block/tnt_bottom",
+		"north": "#side",
+		"east": "#side",
+		"south": "#side",
+		"west": "#side"
+	}
+}

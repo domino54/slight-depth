@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/rail/power_slope_off",
+	"textures": {
+		"power": "minecraft:block/rail/power_on",
+		"particle": "minecraft:block/activator_rail_on"
+	}
+}

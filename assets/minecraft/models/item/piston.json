@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:item/generic_piston",
+	"textures": {
+		"head_side": "minecraft:block/piston/head_side_normal",
+		"head_front": "minecraft:block/piston/head_front_normal"
+	}
+}

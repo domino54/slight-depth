@@ -1,7 +1,7 @@
 {
-	"parent": "block/block",
+	"parent": "minecraft:block/block",
 	"textures": {
-		"block": "block/netherrack"
+		"block": "minecraft:block/netherrack"
 	},
 	"elements": [
 		{

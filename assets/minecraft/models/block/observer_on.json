@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/observer_off",
+	"textures": {
+		"power": "minecraft:block/observer/power_on"
+	}
+}

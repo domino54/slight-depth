@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/generic_dispenser_face",
+	"textures": {
+		"eyes": "minecraft:block/dispenser/eyes_on"
+	}
+}

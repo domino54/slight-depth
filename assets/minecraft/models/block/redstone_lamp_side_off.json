@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/generic_redstone_lamp_side",
+	"textures": {
+		"glow": "minecraft:block/redstone_lamp/glow_off"
+	}
+}

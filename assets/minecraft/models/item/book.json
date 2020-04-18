@@ -1,6 +1,6 @@
 {
-	"parent": "item/generic_book",
+	"parent": "minecraft:item/generic_book",
 	"textures": {
-		"book": "dommy/item/book/book"
+		"book": "minecraft:item/book/book"
 	}
 }

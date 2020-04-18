@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:item/generic_tulip_item",
+	"textures": {
+		"head": "minecraft:block/tulip/head_pink",
+		"leaf_l": "minecraft:block/tulip/leaf_1",
+		"leaf_r": "minecraft:block/tulip/leaf_0"
+	}
+}

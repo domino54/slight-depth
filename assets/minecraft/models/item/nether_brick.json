@@ -1,6 +1,6 @@
 {
-	"parent": "item/generic_ingot",
+	"parent": "minecraft:item/generic_ingot",
 	"textures": {
-		"ingot": "dommy/item/ingot/nether_brick"
+		"ingot": "minecraft:item/ingot/nether_brick"
 	}
 }

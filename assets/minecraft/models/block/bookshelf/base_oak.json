@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/bookshelf/generic_base",
+	"textures": {
+		"edge": "minecraft:block/bookshelf/frame_edge_oak",
+		"details": "minecraft:block/bookshelf/frame_details_oak",
+		"interior": "minecraft:block/bookshelf/frame_interior_oak",
+		"particle": "minecraft:block/bookshelf"
+	}
+}

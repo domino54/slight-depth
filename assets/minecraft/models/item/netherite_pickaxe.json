@@ -1,7 +1,8 @@
 {
-	"parent": "item/generic_pickaxe",
+	"parent": "minecraft:item/generic_pickaxe",
 	"textures": {
-		"material": "dommy/item/pickaxe/netherite",
-		"handle": "dommy/item/pickaxe/handle_netherite"
+		"material": "minecraft:item/pickaxe/netherite",
+		"handle": "minecraft:item/pickaxe/handle_netherite",
+		"particle": "minecraft:item/netherite_pickaxe"
 	}
 }
