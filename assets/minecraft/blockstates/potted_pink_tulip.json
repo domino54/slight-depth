@@ -1,0 +1,140 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{ "model": "minecraft:block/flower_pot", "y": 0 },
+				{ "model": "minecraft:block/flower_pot", "y": 90 },
+				{ "model": "minecraft:block/flower_pot", "y": 180 },
+				{ "model": "minecraft:block/flower_pot", "y": 270 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/potted_tulip/head_pink_0", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/head_pink_0", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/head_pink_0", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/head_pink_0", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/head_pink_1", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/head_pink_1", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/head_pink_1", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/head_pink_1", "weight": 10, "y": 270 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/potted_tulip/stalk_0", "weight": 11, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/stalk_0", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/stalk_0", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/stalk_0", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/stalk_1", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/stalk_1", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/stalk_1", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/stalk_1", "weight": 10, "y": 270 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/generic_empty", "weight": 40 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_0", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_1", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_2", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_3", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_4", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_5", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_6", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_7", "weight": 10, "y": 0 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/generic_empty", "weight": 41 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_1", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_2", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_3", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_4", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_5", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_6", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_7", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_0", "weight": 10, "y": 0 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/generic_empty", "weight": 42 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_2", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_3", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_4", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_5", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_6", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_7", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_0", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_1", "weight": 10, "y": 90 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/generic_empty", "weight": 43 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_3", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_4", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_5", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_6", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_7", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_0", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_1", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_2", "weight": 10, "y": 90 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/generic_empty", "weight": 44 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_4", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_5", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_6", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_7", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_0", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_1", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_2", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_3", "weight": 10, "y": 180 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/generic_empty", "weight": 45 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_5", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_6", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_7", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_0", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_1", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_2", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_3", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_4", "weight": 10, "y": 180 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/generic_empty", "weight": 46 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_6", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_7", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_0", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_1", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_2", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_3", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_4", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_straight_5", "weight": 10, "y": 270 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/generic_empty", "weight": 47 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_7", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_0", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_1", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_2", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_3", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_4", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_5", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/potted_tulip/leaf_diagonal_6", "weight": 10, "y": 270 }
+			]
+		}
+	]
+}

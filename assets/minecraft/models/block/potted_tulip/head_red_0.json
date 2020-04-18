@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/potted_tulip/generic_head_0",
+	"textures": {
+		"head": "minecraft:block/tulip/head_red",
+		"particle": "minecraft:block/red_tulip"
+	}
+}

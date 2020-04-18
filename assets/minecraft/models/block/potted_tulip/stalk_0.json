@@ -1,0 +1,19 @@
+{
+	"ambientocclusion": false,
+	"textures": {
+		"stalk": "minecraft:block/tulip/stalk"
+	},
+	"elements": [
+		{
+			"from": [7.625, 4, 7.625],
+			"to": [8.375, 10.75, 8.375],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"faces": {
+				"north": {"uv": [0, 7, 1, 16], "texture": "#stalk"},
+				"east": {"uv": [1, 7, 2, 16], "texture": "#stalk"},
+				"south": {"uv": [2, 7, 3, 16], "texture": "#stalk"},
+				"west": {"uv": [3, 7, 4, 16], "texture": "#stalk"}
+			}
+		}
+	]
+}

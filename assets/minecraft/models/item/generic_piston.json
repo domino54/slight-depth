@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:block/block",
 	"textures": {
-		"base_back": "minecraft:block/dispenser/top",
+		"base_back": "minecraft:block/furnace/top",
 		"base_side": "minecraft:block/piston/base_side",
 		"head_corner": "minecraft:block/piston/head_corner"
 	},

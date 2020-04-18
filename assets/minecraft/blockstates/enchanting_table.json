@@ -1,0 +1,10 @@
+{
+	"variants": {
+		"": [
+			{ "model": "minecraft:block/enchanting_table", "y": 0 },
+			{ "model": "minecraft:block/enchanting_table", "y": 90 },
+			{ "model": "minecraft:block/enchanting_table", "y": 180 },
+			{ "model": "minecraft:block/enchanting_table", "y": 270 }
+		]
+	}
+}

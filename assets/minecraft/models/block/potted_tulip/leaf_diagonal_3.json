@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/potted_tulip/generic_leaf_diagonal",
+	"textures": {
+		"leaf": "minecraft:block/tulip/leaf_3"
+	}
+}

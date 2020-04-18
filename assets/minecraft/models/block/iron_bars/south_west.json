@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"bars": "minecraft:block/iron_bars",
+		"south_west": "minecraft:block/iron_bars/south_west",
 		"particle": "minecraft:block/iron_bars"
 	},
 	"elements": [
@@ -8,33 +8,33 @@
 			"from": [7, 0, 12],
 			"to": [9, 16, 14],
 			"faces": {
-				"north": {"uv": [8, 1, 9, 9], "texture": "#bars"},
-				"east": {"uv": [11, 1, 12, 9], "texture": "#bars"},
-				"south": {"uv": [10, 1, 11, 9], "texture": "#bars"},
-				"west": {"uv": [9, 1, 10, 9], "texture": "#bars"},
-				"up": {"uv": [9, 1, 8, 0], "texture": "#bars"},
-				"down": {"uv": [9, 10, 8, 9], "texture": "#bars"}
+				"north": {"uv": [0, 0, 2, 16], "texture": "#south_west"},
+				"east": {"uv": [2, 0, 4, 16], "texture": "#south_west"},
+				"south": {"uv": [4, 0, 6, 16], "texture": "#south_west"},
+				"west": {"uv": [6, 0, 8, 16], "texture": "#south_west"},
+				"up": {"uv": [10, 2, 8, 0], "texture": "#south_west"},
+				"down": {"uv": [12, 2, 10, 0], "texture": "#south_west"}
 			}
 		},
 		{
 			"from": [7, 7, 14],
 			"to": [9, 9, 16],
 			"faces": {
-				"east": {"uv": [5, 15, 6, 16], "rotation": 180, "texture": "#bars"},
-				"south": {"uv": [6, 13, 7, 14], "texture": "#bars", "cullface": "south"},
-				"west": {"uv": [5, 13, 6, 14], "texture": "#bars"},
-				"up": {"uv": [5, 12, 6, 13], "rotation": 90, "texture": "#bars"},
-				"down": {"uv": [5, 14, 6, 15], "rotation": 270, "texture": "#bars"}
+				"east": {"uv": [12, 14, 14, 16], "rotation": 180, "texture": "#south_west"},
+				"south": {"uv": [14, 10, 16, 12], "texture": "#south_west", "cullface": "south"},
+				"west": {"uv": [12, 10, 14, 12], "texture": "#south_west"},
+				"up": {"uv": [12, 8, 14, 10], "rotation": 90, "texture": "#south_west"},
+				"down": {"uv": [12, 12, 14, 14], "rotation": 270, "texture": "#south_west"}
 			}
 		},
 		{
 			"from": [7, 12, 9],
 			"to": [9, 14, 12],
 			"faces": {
-				"east": {"uv": [3.5, 15, 5, 16], "rotation": 180, "texture": "#bars"},
-				"west": {"uv": [3.5, 13, 5, 14], "texture": "#bars"},
-				"up": {"uv": [3.5, 12, 5, 13], "rotation": 90, "texture": "#bars"},
-				"down": {"uv": [3.5, 14, 5, 15], "rotation": 270, "texture": "#bars"}
+				"east": {"uv": [9, 14, 12, 16], "rotation": 180, "texture": "#south_west"},
+				"west": {"uv": [9, 10, 12, 12], "texture": "#south_west"},
+				"up": {"uv": [9, 8, 12, 10], "rotation": 90, "texture": "#south_west"},
+				"down": {"uv": [9, 12, 12, 14], "rotation": 270, "texture": "#south_west"}
 			}
 		}
 	]

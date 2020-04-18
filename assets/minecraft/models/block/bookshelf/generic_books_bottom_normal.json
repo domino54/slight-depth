@@ -1,7 +1,4 @@
 {
-	"textures": {
-		"props": "minecraft:block/bookshelf/props_0"
-	},
 	"elements": [
 		{
 			"from": [1, 1, 1],
@@ -9,6 +6,16 @@
 			"faces": {
 				"north": {"uv": [3, 1, 4, 4], "texture": "#books", "cullface": "north"},
 				"east": {"uv": [5, 1, 4, 4], "texture": "#books", "cullface": "north"}
+			}
+		},
+		{
+			"from": [3, 1, 0],
+			"to": [5, 5, 4],
+			"faces": {
+				"north": {"uv": [9, 6, 10, 8], "texture": "#books", "cullface": "north"},
+				"east": {"uv": [12, 6, 10, 8], "texture": "#books", "cullface": "north"},
+				"west": {"uv": [10, 6, 12, 8], "texture": "#books", "cullface": "north"},
+				"up": {"uv": [10, 5, 12, 6], "rotation": 90, "texture": "#books", "cullface": "north"}
 			}
 		},
 		{
@@ -46,6 +53,36 @@
 				"north": {"uv": [9, 1, 7, 4], "texture": "#books", "cullface": "west"},
 				"south": {"uv": [7, 1, 9, 4], "texture": "#books", "cullface": "west"},
 				"west": {"uv": [6, 1, 7, 4], "texture": "#books", "cullface": "west"}
+			}
+		},
+		{
+			"from": [0, 1.58607, 5.23638],
+			"to": [4, 6.58607, 6.23638],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [3, 9.5, 1, 12], "texture": "#books", "cullface": "west"},
+				"south": {"uv": [1, 9.5, 3, 12], "texture": "#books", "cullface": "west"},
+				"west": {"uv": [0.5, 9.5, 1, 12], "texture": "#books", "cullface": "west"},
+				"up": {"uv": [1, 9, 3, 9.5], "texture": "#books", "cullface": "west"},
+				"down": {"uv": [1, 9, 3, 9.5], "texture": "#books", "cullface": "west"}
+			}
+		},
+		{
+			"from": [1, 1, 10],
+			"to": [4, 7, 11],
+			"faces": {
+				"north": {"uv": [8.5, 13, 7, 16], "texture": "#books", "cullface": "west"},
+				"south": {"uv": [7, 13, 8.5, 16], "texture": "#books", "cullface": "west"},
+				"west": {"uv": [6.5, 13, 7, 16], "texture": "#books", "cullface": "west"}
+			}
+		},
+		{
+			"from": [0, 1, 11],
+			"to": [4, 5, 13],
+			"faces": {
+				"north": {"uv": [12, 14, 10, 16], "texture": "#books", "cullface": "west"},
+				"west": {"uv": [9, 14, 10, 16], "texture": "#books", "cullface": "west"},
+				"up": {"uv": [10, 13, 12, 14], "texture": "#books", "cullface": "west"}
 			}
 		},
 		{
@@ -270,47 +307,6 @@
 				"south": {"uv": [2.5, 6.5, 1, 8], "texture": "#books", "cullface": "east"},
 				"up": {"uv": [1, 6, 3, 6.5], "rotation": 180, "texture": "#books", "cullface": "east"},
 				"down": {"uv": [1, 6, 3, 6.5], "rotation": 180, "texture": "#books", "cullface": "east"}
-			}
-		},
-		{
-			"from": [0, 1, 8],
-			"to": [3, 3, 11],
-			"faces": {
-				"north": {"uv": [0, 3, 3, 5], "texture": "#props", "cullface": "west"},
-				"south": {"uv": [6, 3, 9, 5], "texture": "#props", "cullface": "west"},
-				"west": {"uv": [3, 3, 6, 5], "texture": "#props", "cullface": "west"},
-				"up": {"uv": [3, 0, 6, 3], "texture": "#props", "cullface": "west"}
-			}
-		},
-		{
-			"from": [0, 5, 9],
-			"to": [3, 5, 10],
-			"rotation": {"angle": 45, "axis": "z", "origin": [1.5, 5, 9.5]},
-			"faces": {
-				"up": {"uv": [1, 0, 2, 3], "rotation": 90, "texture": "#props", "cullface": "west"}
-			}
-		},
-		{
-			"from": [1, 5, 10],
-			"to": [2, 5, 11],
-			"rotation": {"angle": 45, "axis": "z", "origin": [1.5, 5, 9.5]},
-			"faces": {
-				"up": {"uv": [2, 1, 3, 2], "rotation": 90, "texture": "#props", "cullface": "west"}
-			}
-		},
-		{
-			"from": [1, 5, 8],
-			"to": [2, 5, 9],
-			"rotation": {"angle": 45, "axis": "z", "origin": [1.5, 5, 9.5]},
-			"faces": {
-				"up": {"uv": [0, 1, 1, 2], "rotation": 90, "texture": "#props", "cullface": "west"}
-			}
-		},
-		{
-			"from": [1.51, 3, 9],
-			"to": [1.51, 5, 10],
-			"faces": {
-				"west": {"uv": [6, 0, 7, 2], "texture": "#props", "cullface": "west"}
 			}
 		}
 	]

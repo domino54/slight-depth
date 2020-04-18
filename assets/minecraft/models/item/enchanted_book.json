@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:item/generic_book_with_ribbon",
 	"textures": {
-		"book": "minecraft:item/book/book",
-		"ribbon": "minecraft:item/book/ribbon_enchanted_book"
+		"cover": "minecraft:item/book/cover_normal",
+		"ribbon": "minecraft:item/book/ribbon_enchanted"
 	}
 }

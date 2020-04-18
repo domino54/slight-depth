@@ -15,7 +15,7 @@
 			"translation": [0, 0, 0]
 		},
 		"fixed": {
-			"translation": [0, 0, 0]
+			"translation": [0, 0, -0.5]
 		},
 		"firstperson_righthand": {
 			"scale": [0.7, 0.7, 0.7],

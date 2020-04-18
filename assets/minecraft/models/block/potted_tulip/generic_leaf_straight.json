@@ -1,0 +1,14 @@
+{
+	"ambientocclusion": false,
+	"elements": [
+		{
+			"from": [8, 4, 4.625],
+			"to": [8, 16, 7.625],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 6, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 4, 16], "texture": "#leaf"},
+				"west": {"uv": [4, 0, 0, 16], "texture": "#leaf"}
+			}
+		}
+	]
+}

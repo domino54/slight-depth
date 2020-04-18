@@ -1,6 +1,6 @@
 {
 	"parent": "minecraft:item/generic_book",
 	"textures": {
-		"book": "minecraft:item/book/book"
+		"cover": "minecraft:item/book/cover_normal"
 	}
 }
