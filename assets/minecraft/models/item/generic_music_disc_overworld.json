@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generic_music_disc",
+	"textures": {
+		"disc": "minecraft:item/music_disc/disc_overworld"
+	}
+}

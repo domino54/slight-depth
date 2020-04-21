@@ -1,0 +1,13 @@
+{
+	"variants": {
+		"axis=x": [
+			{ "model": "minecraft:block/log/log_warped_normal", "x": 90, "y": 90 }
+		],
+		"axis=y": [
+			{ "model": "minecraft:block/log/log_warped_normal", "x": 0, "y": 0 }
+		],
+		"axis=z": [
+			{ "model": "minecraft:block/log/log_warped_normal", "x": 90, "y": 0 }
+		]
+	}
+}

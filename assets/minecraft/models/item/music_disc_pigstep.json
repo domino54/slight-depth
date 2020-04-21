@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generic_music_disc_nether",
+	"textures": {
+		"label": "minecraft:item/music_disc/label_pigstep"
+	}
+}

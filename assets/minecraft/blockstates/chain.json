@@ -1,0 +1,8 @@
+{
+	"variants": {
+		"": [
+			{ "model": "minecraft:block/chain", "y": 0 },
+			{ "model": "minecraft:block/chain", "y": 180 }
+		]
+	}
+}

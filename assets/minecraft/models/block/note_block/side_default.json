@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/note_block/generic_side",
+	"textures": {
+		"side": "minecraft:block/note_block/side_default",
+		"particle": "minecraft:block/note_block"
+	}
+}

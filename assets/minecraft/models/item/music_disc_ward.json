@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:item/generic_music_disc_overworld",
+	"textures": {
+		"label": "minecraft:item/music_disc/label_ward"
+	}
+}

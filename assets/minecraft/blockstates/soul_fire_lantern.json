@@ -8,9 +8,7 @@
 		],
 		"hanging=true": [
 			{ "model": "minecraft:block/lantern/hanging_soul", "y": 0 },
-			{ "model": "minecraft:block/lantern/hanging_soul", "y": 90 },
-			{ "model": "minecraft:block/lantern/hanging_soul", "y": 180 },
-			{ "model": "minecraft:block/lantern/hanging_soul", "y": 270 }
+			{ "model": "minecraft:block/lantern/hanging_soul", "y": 180 }
 		]
 	}
 }

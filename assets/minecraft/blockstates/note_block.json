@@ -1,0 +1,22 @@
+{
+	"multipart": [
+		{
+			"apply": { "model": "minecraft:block/note_block/side_default", "y": 0 }
+		},
+		{
+			"apply": { "model": "minecraft:block/note_block/side_default", "y": 90 }
+		},
+		{
+			"apply": { "model": "minecraft:block/note_block/side_default", "y": 180 }
+		},
+		{
+			"apply": { "model": "minecraft:block/note_block/side_default", "y": 270 }
+		},
+		{
+			"apply": { "model": "minecraft:block/note_block/side_default", "y": 180, "x": 90 }
+		},
+		{
+			"apply": { "model": "minecraft:block/note_block/side_default", "y": 180, "x": 270 }
+		}
+	]
+}
