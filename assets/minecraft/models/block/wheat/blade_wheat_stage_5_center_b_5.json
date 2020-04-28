@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/wheat/generic_blade_center_b",
+	"textures": {
+		"blade": "minecraft:block/wheat/stage_5_blade_5",
+		"particle": "minecraft:block/wheat_stage5"
+	}
+}

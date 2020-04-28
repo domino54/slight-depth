@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/torch/generic_wall_1",
+	"textures": {
+		"lit": "minecraft:block/torch/soul",
+		"particle": "minecraft:block/soul_torch"
+	}
+}

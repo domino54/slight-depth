@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/root_crop/generic_shape_small_3",
+	"textures": {
+		"leaf": "minecraft:block/potatoes/leaf_stage_2",
+		"root": "minecraft:block/potatoes/root_stage_2",
+		"particle": "minecraft:block/potatoes/leaf_stage_2"
+	}
+}

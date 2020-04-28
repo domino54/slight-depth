@@ -1,0 +1,10 @@
+{
+	"parent": "minecraft:block/wheat/generic_blade_corners_a",
+	"textures": {
+		"blade_0": "minecraft:block/wheat/stage_2_blade_0",
+		"blade_1": "minecraft:block/wheat/stage_2_blade_1",
+		"blade_2": "minecraft:block/wheat/stage_2_blade_2",
+		"blade_3": "minecraft:block/wheat/stage_2_blade_3",
+		"particle": "minecraft:block/wheat_stage2"
+	}
+}

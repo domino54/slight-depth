@@ -1,0 +1,9 @@
+{
+	"textures": {
+		"top": "minecraft:block/fungus/warped_top",
+		"side": "minecraft:block/fungus/warped_sides",
+		"bottom": "minecraft:block/fungus/warped_underside",
+		"stem": "minecraft:block/fungus/warped_stem",
+		"particle": "minecraft:block/warped_fungus"
+	}
+}

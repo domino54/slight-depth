@@ -1,0 +1,25 @@
+{
+	"ambientocclusion": false,
+	"elements": [
+		{
+			"from": [8, -1, 4.5],
+			"to": [8, 15, 11.5],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"east": {"uv": [4, 0, 11, 16], "texture": "#blade"},
+				"west": {"uv": [11, 0, 4, 16], "texture": "#blade"}
+			}
+		},
+		{
+			"from": [4.5, -1, 8],
+			"to": [11.5, 15, 8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 7, 8]},
+			"faces": {
+				"north": {"uv": [4, 0, 11, 16], "texture": "#blade"},
+				"south": {"uv": [11, 0, 4, 16], "texture": "#blade"}
+			}
+		}
+	]
+}

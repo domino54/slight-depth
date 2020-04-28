@@ -1,7 +1,0 @@
-{
-	"parent": "minecraft:block/torch/generic_standing",
-	"textures": {
-		"lit": "minecraft:block/torch/soul_fire",
-		"particle": "minecraft:block/soul_fire_torch"
-	}
-}

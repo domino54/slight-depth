@@ -1,0 +1,31 @@
+{
+	"ambientocclusion": false,
+	"elements": [
+		{
+			"from": [3, -1, 1.5],
+			"to": [3, 7, 10.5],
+			"rotation": {"angle": -45, "axis": "y", "origin": [3, 3, 6]},
+			"faces": {
+				"east": {"uv": [12, 8, 3, 16], "texture": "#leaf"},
+				"west": {"uv": [3, 8, 12, 16], "texture": "#leaf"}
+			}
+		},
+		{
+			"from": [-1.5, -1, 6],
+			"to": [7.5, 7, 6],
+			"rotation": {"angle": -45, "axis": "y", "origin": [3, 3, 6]},
+			"faces": {
+				"north": {"uv": [3, 8, 12, 16], "texture": "#leaf"},
+				"south": {"uv": [12, 8, 3, 16], "texture": "#leaf"}
+			}
+		},
+		{
+			"from": [2, -0.95, 5],
+			"to": [4, -0.95, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5, 5, 4]},
+			"faces": {
+				"up": {"uv": [0, 8, 2, 10], "texture": "#root"}
+			}
+		}
+	]
+}

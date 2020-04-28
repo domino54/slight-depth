@@ -1,0 +1,8 @@
+{
+	"parent": "minecraft:block/root_crop/generic_shape_small_1",
+	"textures": {
+		"leaf": "minecraft:block/beetroots/leaf_stage_1",
+		"root": "minecraft:block/beetroots/root_stage_1",
+		"particle": "minecraft:block/beetroots/leaf_stage_1"
+	}
+}

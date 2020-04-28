@@ -1,0 +1,212 @@
+{
+	"multipart": [
+		{
+			"when": { "age": 0 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_0", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_1", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_2", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_3", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_4", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_5", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_6", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_7", "weight": 5, "y": 0 }
+			]
+		},
+		{
+			"when": { "age": 0 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_0", "weight": 11, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_1", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_2", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_3", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_4", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_5", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_6", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_7", "weight": 5, "y": 90 }
+			]
+		},
+		{
+			"when": { "age": 0 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_0", "weight": 12, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_1", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_2", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_3", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_4", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_5", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_6", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_7", "weight": 5, "y": 180 }
+			]
+		},
+		{
+			"when": { "age": 0 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_0", "weight": 13, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_1", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_2", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_3", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_4", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_5", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_6", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_0_7", "weight": 5, "y": 270 }
+			]
+		},
+		{
+			"when": { "age": 1 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_0", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_1", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_2", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_3", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_4", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_5", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_6", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_7", "weight": 5, "y": 0 }
+			]
+		},
+		{
+			"when": { "age": 1 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_0", "weight": 11, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_1", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_2", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_3", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_4", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_5", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_6", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_7", "weight": 5, "y": 90 }
+			]
+		},
+		{
+			"when": { "age": 1 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_0", "weight": 12, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_1", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_2", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_3", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_4", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_5", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_6", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_7", "weight": 5, "y": 180 }
+			]
+		},
+		{
+			"when": { "age": 1 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_0", "weight": 13, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_1", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_2", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_3", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_4", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_5", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_6", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_1_7", "weight": 5, "y": 270 }
+			]
+		},
+		{
+			"when": { "age": 2 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_0", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_1", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_2", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_3", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_4", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_5", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_6", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_7", "weight": 5, "y": 0 }
+			]
+		},
+		{
+			"when": { "age": 2 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_0", "weight": 11, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_1", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_2", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_3", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_4", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_5", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_6", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_7", "weight": 5, "y": 90 }
+			]
+		},
+		{
+			"when": { "age": 2 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_0", "weight": 12, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_1", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_2", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_3", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_4", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_5", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_6", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_7", "weight": 5, "y": 180 }
+			]
+		},
+		{
+			"when": { "age": 2 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_0", "weight": 13, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_1", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_2", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_3", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_4", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_5", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_6", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_2_7", "weight": 5, "y": 270 }
+			]
+		},
+		{
+			"when": { "age": 3 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_0", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_1", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_2", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_3", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_4", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_5", "weight": 5, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_6", "weight": 10, "y": 0 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_7", "weight": 5, "y": 0 }
+			]
+		},
+		{
+			"when": { "age": 3 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_0", "weight": 11, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_1", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_2", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_3", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_4", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_5", "weight": 5, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_6", "weight": 10, "y": 90 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_7", "weight": 5, "y": 90 }
+			]
+		},
+		{
+			"when": { "age": 3 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_0", "weight": 12, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_1", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_2", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_3", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_4", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_5", "weight": 5, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_6", "weight": 10, "y": 180 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_7", "weight": 5, "y": 180 }
+			]
+		},
+		{
+			"when": { "age": 3 },
+			"apply": [
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_0", "weight": 13, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_1", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_2", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_3", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_4", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_5", "weight": 5, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_6", "weight": 10, "y": 270 },
+				{ "model": "minecraft:block/root_crop/beetroots_stage_3_7", "weight": 5, "y": 270 }
+			]
+		}
+	]
+}

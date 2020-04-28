@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:item/generic_bookshelf",
 	"textures": {
-		"planks": "block/oak_planks",
+		"planks": "minecraft:block/oak_planks",
 		"edge": "minecraft:block/bookshelf/frame_edge_oak",
 		"details": "minecraft:block/bookshelf/frame_details_oak",
 		"interior": "minecraft:block/bookshelf/frame_interior_oak"
