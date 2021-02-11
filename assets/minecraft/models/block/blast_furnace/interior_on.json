@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/blast_furnace/interior_off",
+	"textures": {
+		"interior": "minecraft:block/furnace/interior_on"
+	}
+}
