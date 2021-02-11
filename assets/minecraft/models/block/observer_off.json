@@ -2,7 +2,7 @@
 	"parent": "minecraft:block/block",
 	"ambientocclusion": false,
 	"textures": {
-		"furnace_top": "minecraft:block/furnace/top",
+		"furnace_top": "minecraft:block/utility_block/top",
 		"observer_top": "minecraft:block/observer/top",
 		"observer_front": "minecraft:block/observer/front",
 		"observer_side": "minecraft:block/observer/side",

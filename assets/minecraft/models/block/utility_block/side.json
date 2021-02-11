@@ -1,6 +1,7 @@
 {
 	"textures": {
-		"side": "minecraft:block/furnace/side"
+		"side": "minecraft:block/utility_block/side",
+		"top": "minecraft:block/utility_block/top"
 	},
 	"elements": [
 		{
@@ -47,7 +48,7 @@
 			"from": [1, 7, 0.5],
 			"to": [15, 15, 0.5],
 			"faces": {
-				"north": {"uv": [1, 1, 15, 9], "texture": "#side", "cullface": "north"}
+				"north": {"uv": [1, 1, 15, 9], "texture": "#top", "cullface": "north"}
 			}
 		}
 	]

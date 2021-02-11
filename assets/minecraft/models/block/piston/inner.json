@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"base_back": "minecraft:block/furnace/top",
+		"base_back": "minecraft:block/utility_block/top",
 		"base_inner": "minecraft:block/piston/base_inner_ring"
 	},
 	"elements": [

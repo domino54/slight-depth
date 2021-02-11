@@ -58,43 +58,43 @@
 		},
 		{
 			"when": { "facing": "east|south|west" },
-			"apply": { "model": "minecraft:block/furnace/side", "y": 0 }
+			"apply": { "model": "minecraft:block/utility_block/side", "y": 0 }
 		},
 		{
 			"when": { "facing": "south|west|north" },
-			"apply": { "model": "minecraft:block/furnace/side", "y": 90 }
+			"apply": { "model": "minecraft:block/utility_block/side", "y": 90 }
 		},
 		{
 			"when": { "facing": "west|north|east" },
-			"apply": { "model": "minecraft:block/furnace/side", "y": 180 }
+			"apply": { "model": "minecraft:block/utility_block/side", "y": 180 }
 		},
 		{
 			"when": { "facing": "north|east|south" },
-			"apply": { "model": "minecraft:block/furnace/side", "y": 270 }
+			"apply": { "model": "minecraft:block/utility_block/side", "y": 270 }
 		},
 		{
 			"when": { "facing": "up|down" },
-			"apply": { "model": "minecraft:block/furnace/top", "x": 90, "y": 0 }
+			"apply": { "model": "minecraft:block/utility_block/top", "x": 90, "y": 0 }
 		},
 		{
 			"when": { "facing": "up|down" },
-			"apply": { "model": "minecraft:block/furnace/top", "x": 90, "y": 90 }
+			"apply": { "model": "minecraft:block/utility_block/top", "x": 90, "y": 90 }
 		},
 		{
 			"when": { "facing": "up|down" },
-			"apply": { "model": "minecraft:block/furnace/top", "x": 90, "y": 180 }
+			"apply": { "model": "minecraft:block/utility_block/top", "x": 90, "y": 180 }
 		},
 		{
 			"when": { "facing": "up|down" },
-			"apply": { "model": "minecraft:block/furnace/top", "x": 90, "y": 270 }
+			"apply": { "model": "minecraft:block/utility_block/top", "x": 90, "y": 270 }
 		},
 		{
 			"when": { "facing": "north|east|south|west|down" },
-			"apply": { "model": "minecraft:block/furnace/top", "y": 0 }
+			"apply": { "model": "minecraft:block/utility_block/top", "y": 0 }
 		},
 		{
 			"when": { "facing": "north|east|south|west|up" },
-			"apply": { "model": "minecraft:block/furnace/top", "x": 180 }
+			"apply": { "model": "minecraft:block/utility_block/top", "x": 180 }
 		}
 	]
 }

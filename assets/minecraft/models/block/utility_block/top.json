@@ -1,6 +1,6 @@
 {
 	"textures": {
-		"top": "minecraft:block/furnace/top"
+		"top": "minecraft:block/utility_block/top"
 	},
 	"elements": [
 		{

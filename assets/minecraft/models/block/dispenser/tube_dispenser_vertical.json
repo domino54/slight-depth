@@ -1,7 +1,7 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"top": "minecraft:block/furnace/top",
+		"top": "minecraft:block/utility_block/top",
 		"tube": "minecraft:block/dispenser/tube"
 	},
 	"elements": [
