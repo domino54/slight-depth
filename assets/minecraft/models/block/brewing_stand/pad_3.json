@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/brewing_stand/generic_pad",
+	"textures": {
+		"pad": "minecraft:block/brewing_stand/pad_3"
+	}
+}

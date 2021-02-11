@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/brewing_stand/generic_bottle_b",
+	"textures": {
+		"liquid": "minecraft:block/brewing_stand/liquid_1"
+	}
+}

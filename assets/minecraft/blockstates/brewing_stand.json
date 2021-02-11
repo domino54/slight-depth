@@ -1,0 +1,110 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{ "model": "minecraft:block/brewing_stand/rod", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/rod", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/rod", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/rod", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"apply": { "model": "minecraft:block/brewing_stand/arm", "y": 0 }
+		},
+		{
+			"apply": { "model": "minecraft:block/brewing_stand/arm", "y": 90 }
+		},
+		{
+			"apply": { "model": "minecraft:block/brewing_stand/arm", "y": 180 }
+		},
+		{
+			"apply": { "model": "minecraft:block/brewing_stand/arm", "y": 270 }
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/brewing_stand/pad_0", "y": 0, "weight": 101 },
+				{ "model": "minecraft:block/brewing_stand/pad_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/pad_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/pad_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/brewing_stand/pad_0", "y": 90, "weight": 102 },
+				{ "model": "minecraft:block/brewing_stand/pad_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/pad_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/pad_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/brewing_stand/pad_0", "y": 180, "weight": 103 },
+				{ "model": "minecraft:block/brewing_stand/pad_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/pad_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/pad_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/brewing_stand/pad_0", "y": 270, "weight": 104 },
+				{ "model": "minecraft:block/brewing_stand/pad_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/pad_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/pad_3", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "has_bottle_0": true },
+			"apply": [
+				{ "model": "minecraft:block/brewing_stand/bottle_a_0", "y": 0, "weight": 400 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_3", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_4", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_5", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_0", "y": 0, "weight": 400 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_3", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_4", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_5", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_extra", "y": 0, "weight": 1 }
+			]
+		},
+		{
+			"when": { "has_bottle_1": true },
+			"apply": [
+				{ "model": "minecraft:block/brewing_stand/bottle_a_0", "y": 90, "weight": 401 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_3", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_4", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_5", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_0", "y": 90, "weight": 400 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_3", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_4", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_5", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_extra", "y": 90, "weight": 1 }
+			]
+		},
+		{
+			"when": { "has_bottle_2": true },
+			"apply": [
+				{ "model": "minecraft:block/brewing_stand/bottle_a_0", "y": 180, "weight": 402 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_3", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_4", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_a_5", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_0", "y": 180, "weight": 400 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_3", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_4", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_b_5", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/brewing_stand/bottle_extra", "y": 180, "weight": 1 }
+			]
+		}
+	]
+}

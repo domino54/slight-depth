@@ -1,0 +1,54 @@
+{
+	"textures": {
+		"arm": "minecraft:block/brewing_stand/arm"
+	},
+	"elements": [
+		{
+			"from": [7.75, 12, 0.84315],
+			"to": [8.25, 13.99, 5.84315],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [9, 2, 11, 2.49], "rotation": 90, "texture": "#arm"},
+				"east": {"uv": [4, 3, 9, 5], "texture": "#arm"},
+				"west": {"uv": [4, 0, 9, 1.99], "rotation": 180, "texture": "#arm"},
+				"up": {"uv": [4, 2, 9, 2.5], "rotation": 270, "texture": "#arm"},
+				"down": {"uv": [4, 5, 9, 5.5], "rotation": 90, "texture": "#arm"}
+			}
+		},
+		{
+			"from": [7.75, 3, 5.84315],
+			"to": [8.25, 13.99, 6.84315],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [14, 1, 14.5, 12], "texture": "#arm"},
+				"east": {"uv": [13, 1, 14, 12], "texture": "#arm"},
+				"west": {"uv": [15, 1, 16, 12], "texture": "#arm"},
+				"up": {"uv": [14, 0, 14.5, 1], "texture": "#arm"},
+				"down": {"uv": [14, 12, 14.5, 13], "rotation": 180, "texture": "#arm"}
+			}
+		},
+		{
+			"from": [11.45, 11.95, 3.45],
+			"to": [12.55, 16.05, 4.55],
+			"faces": {
+				"north": {"uv": [0, 1, 1, 5], "texture": "#arm"},
+				"east": {"uv": [3, 1, 4, 5], "texture": "#arm"},
+				"south": {"uv": [2, 1, 3, 5], "texture": "#arm"},
+				"west": {"uv": [1, 1, 2, 5], "texture": "#arm"},
+				"up": {"uv": [0, 0, 1, 1], "rotation": 270, "texture": "#arm"},
+				"down": {"uv": [0, 5, 1, 6], "rotation": 90, "texture": "#arm"}
+			}
+		},
+		{
+			"from": [11.625, 6, 3.625],
+			"to": [12.375, 12, 4.375],
+			"faces": {
+				"north": {"uv": [0, 6, 1, 12], "texture": "#arm"},
+				"east": {"uv": [3, 6, 4, 12], "texture": "#arm"},
+				"south": {"uv": [2, 6, 3, 12], "texture": "#arm"},
+				"west": {"uv": [1, 6, 2, 12], "texture": "#arm"},
+				"down": {"uv": [0, 12, 1, 13], "rotation": 90, "texture": "#arm"}
+			}
+		}
+	]
+}

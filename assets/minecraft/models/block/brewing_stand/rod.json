@@ -1,0 +1,34 @@
+{
+	"textures": {
+		"rod": "minecraft:block/brewing_stand/rod",
+		"particle": "minecraft:block/brewing_stand"
+	},
+	"elements": [
+		{
+			"from": [6.875, 10, 6.875],
+			"to": [9.125, 12, 9.125],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.33333, 8]},
+			"faces": {
+				"north": {"uv": [8, 2, 10, 4], "texture": "#rod"},
+				"east": {"uv": [14, 2, 16, 4], "texture": "#rod"},
+				"south": {"uv": [12, 2, 14, 4], "texture": "#rod"},
+				"west": {"uv": [10, 2, 12, 4], "texture": "#rod"},
+				"up": {"uv": [10, 0, 12, 2], "texture": "#rod"},
+				"down": {"uv": [10, 4, 12, 6], "texture": "#rod"}
+			}
+		},
+		{
+			"from": [7, 0, 7],
+			"to": [9, 14, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 3.33333, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 2, 14], "texture": "#rod"},
+				"east": {"uv": [6, 2, 8, 16], "texture": "#rod"},
+				"south": {"uv": [4, 2, 6, 16], "texture": "#rod"},
+				"west": {"uv": [2, 2, 4, 16], "texture": "#rod"},
+				"up": {"uv": [0, 0, 2, 2], "texture": "#rod"},
+				"down": {"uv": [2, 0, 4, 2], "texture": "#rod", "cullface": "down"}
+			}
+		}
+	]
+}
