@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:item/generic_sword",
 	"textures": {
-		"material": "minecraft:item/sword/wooden",
+		"blade": "minecraft:item/sword/blade_wooden",
 		"handle": "minecraft:item/sword/handle_wooden",
 		"particle": "minecraft:item/wooden_sword"
 	}

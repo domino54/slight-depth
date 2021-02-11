@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:item/generic_sword",
 	"textures": {
-		"material": "minecraft:item/sword/netherite",
+		"blade": "minecraft:item/sword/blade_netherite",
 		"handle": "minecraft:item/sword/handle_netherite",
 		"particle": "minecraft:item/netherite_sword"
 	}
