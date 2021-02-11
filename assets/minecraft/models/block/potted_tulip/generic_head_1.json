@@ -1,5 +1,4 @@
 {
-	"ambientocclusion": false,
 	"textures": {
 		"center": "minecraft:block/tulip/center"
 	},
@@ -8,6 +7,7 @@
 			"from": [6.875, 12.25, 9.125],
 			"to": [9.125, 13.75, 9.125],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6, 8]},
+			"shade": false,
 			"faces": {
 				"north": {"uv": [9, 3, 6, 5], "texture": "#head"},
 				"south": {"uv": [6, 3, 9, 5], "texture": "#head"}
@@ -17,6 +17,7 @@
 			"from": [6.875, 12.25, 6.875],
 			"to": [6.875, 13.75, 9.125],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6, 8]},
+			"shade": false,
 			"faces": {
 				"east": {"uv": [12, 3, 9, 5], "texture": "#head"},
 				"west": {"uv": [9, 3, 12, 5], "texture": "#head"}
@@ -26,6 +27,7 @@
 			"from": [6.875, 12.25, 6.875],
 			"to": [9.125, 13.75, 6.875],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6, 8]},
+			"shade": false,
 			"faces": {
 				"north": {"uv": [0, 3, 3, 5], "texture": "#head"},
 				"south": {"uv": [3, 3, 0, 5], "texture": "#head"}
@@ -35,6 +37,7 @@
 			"from": [9.125, 12.25, 6.875],
 			"to": [9.125, 13.75, 9.125],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6, 8]},
+			"shade": false,
 			"faces": {
 				"east": {"uv": [3, 3, 6, 5], "texture": "#head"},
 				"west": {"uv": [6, 3, 3, 5], "texture": "#head"}
@@ -44,6 +47,7 @@
 			"from": [7.625, 12.25, 7.625],
 			"to": [8.375, 12.625, 8.375],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6, 8]},
+			"shade": false,
 			"faces": {
 				"north": {"uv": [3, 1, 4, 1.5], "texture": "#center"},
 				"east": {"uv": [2, 1, 3, 1.5], "texture": "#center"},
@@ -56,6 +60,7 @@
 			"from": [6.875, 11.5, 6.875],
 			"to": [9.125, 12.25, 9.125],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6, 8]},
+			"shade": false,
 			"faces": {
 				"north": {"uv": [0, 5, 3, 6], "texture": "#head"},
 				"east": {"uv": [3, 5, 6, 6], "texture": "#head"},
@@ -69,6 +74,7 @@
 			"from": [7.25, 10.75, 7.25],
 			"to": [8.75, 11.5, 8.75],
 			"rotation": {"angle": 45, "axis": "y", "origin": [8, 6, 8]},
+			"shade": false,
 			"faces": {
 				"north": {"uv": [0, 13, 2, 14], "texture": "#head"},
 				"east": {"uv": [2, 13, 4, 14], "texture": "#head"},
