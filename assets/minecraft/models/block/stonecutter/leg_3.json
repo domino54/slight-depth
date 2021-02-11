@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/stonecutter/generic_leg",
+	"textures": {
+		"leg": "minecraft:block/stonecutter/leg_3"
+	}
+}

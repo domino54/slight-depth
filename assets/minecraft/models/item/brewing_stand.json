@@ -1,13 +1,12 @@
 {
 	"parent": "minecraft:block/block",
 	"textures": {
-		"rod": "block/brewing_stand/rod",
-		"particle": "block/brewing_stand",
-		"arm": "block/brewing_stand/arm",
-		"pad_0": "block/brewing_stand/pad_0",
-		"pad_1": "block/brewing_stand/pad_1",
-		"pad_2": "block/brewing_stand/pad_2",
-		"pad_3": "block/brewing_stand/pad_3"
+		"rod": "minecraft:block/brewing_stand/rod",
+		"arm": "minecraft:block/brewing_stand/arm",
+		"pad_0": "minecraft:block/brewing_stand/pad_0",
+		"pad_1": "minecraft:block/brewing_stand/pad_1",
+		"pad_2": "minecraft:block/brewing_stand/pad_2",
+		"pad_3": "minecraft:block/brewing_stand/pad_3"
 	},
 	"elements": [
 		{

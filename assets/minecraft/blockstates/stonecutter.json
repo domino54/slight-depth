@@ -1,0 +1,82 @@
+{
+	"multipart": [
+		{
+			"when": { "facing": "north|south" },
+			"apply": [
+				{ "model": "minecraft:block/stonecutter/tabletop", "y": 0 },
+				{ "model": "minecraft:block/stonecutter/tabletop", "y": 180 }
+			]
+		},
+		{
+			"when": { "facing": "east|west" },
+			"apply": [
+				{ "model": "minecraft:block/stonecutter/tabletop", "y": 90 },
+				{ "model": "minecraft:block/stonecutter/tabletop", "y": 270 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/stonecutter/leg_0", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/leg_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/leg_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/leg_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/stonecutter/leg_0", "y": 90, "weight": 101 },
+				{ "model": "minecraft:block/stonecutter/leg_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/leg_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/leg_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/stonecutter/leg_0", "y": 180, "weight": 102 },
+				{ "model": "minecraft:block/stonecutter/leg_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/leg_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/leg_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/stonecutter/leg_0", "y": 270, "weight": 103 },
+				{ "model": "minecraft:block/stonecutter/leg_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/leg_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/leg_3", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/stonecutter/side", "y": 0, "weight": 104 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/stonecutter/side", "y": 90, "weight": 105 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/stonecutter/side", "y": 180, "weight": 106 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/stonecutter/side", "y": 270, "weight": 107 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/stonecutter/side", "y": 270, "weight": 100 }
+			]
+		}
+	]
+}
