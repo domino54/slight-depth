@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:item/generic_shovel",
 	"textures": {
-		"material": "minecraft:item/shovel/stone",
+		"head": "minecraft:item/shovel/head_stone",
 		"handle": "minecraft:item/shovel/handle_wooden",
 		"particle": "minecraft:item/stone_shovel"
 	}

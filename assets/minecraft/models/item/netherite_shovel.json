@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:item/generic_shovel",
 	"textures": {
-		"material": "minecraft:item/shovel/netherite",
+		"head": "minecraft:item/shovel/head_netherite",
 		"handle": "minecraft:item/shovel/handle_netherite",
 		"particle": "minecraft:item/netherite_shovel"
 	}
