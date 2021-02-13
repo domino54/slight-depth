@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/rail/crosstie/generic_corner_a",
+	"textures": {
+		"crosstie": "minecraft:block/rail/crosstie_0"
+	}
+}

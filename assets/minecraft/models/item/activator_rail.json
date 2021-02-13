@@ -2,59 +2,13 @@
 	"parent": "minecraft:item/generic_rail_display",
 	"textures": {
 		"rail": "minecraft:block/rail/rail_straight",
-		"crossties_0": "minecraft:block/rail/crossties_0",
-		"crossties_1": "minecraft:block/rail/crossties_1",
+		"crosstie_0": "minecraft:block/rail/crosstie_0",
+		"crosstie_1": "minecraft:block/rail/crosstie_1",
+		"crosstie_2": "minecraft:block/rail/crosstie_2",
+		"crosstie_3": "minecraft:block/rail/crosstie_3",
 		"power": "minecraft:block/rail/power_off"
 	},
 	"elements": [
-		{
-			"from": [1, 0, 1],
-			"to": [15, 1, 3],
-			"faces": {
-				"north": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#crossties_0"},
-				"east": {"uv": [15, 1, 16, 3], "rotation": 90, "texture": "#crossties_0"},
-				"south": {"uv": [1, 3, 15, 4], "texture": "#crossties_0"},
-				"west": {"uv": [0, 1, 1, 3], "rotation": 270, "texture": "#crossties_0"},
-				"up": {"uv": [1, 1, 15, 3], "texture": "#crossties_0"},
-				"down": {"uv": [1, 4, 15, 6], "texture": "#crossties_0", "cullface": "down"}
-			}
-		},
-		{
-			"from": [1, 0, 5],
-			"to": [15, 1, 7],
-			"faces": {
-				"north": {"uv": [1, 8, 15, 9], "rotation": 180, "texture": "#crossties_0"},
-				"east": {"uv": [15, 9, 16, 11], "rotation": 90, "texture": "#crossties_0"},
-				"south": {"uv": [1, 11, 15, 12], "texture": "#crossties_0"},
-				"west": {"uv": [0, 9, 1, 11], "rotation": 270, "texture": "#crossties_0"},
-				"up": {"uv": [1, 9, 15, 11], "texture": "#crossties_0"},
-				"down": {"uv": [1, 12, 15, 14], "texture": "#crossties_0", "cullface": "down"}
-			}
-		},
-		{
-			"from": [1, 0, 9],
-			"to": [15, 1, 11],
-			"faces": {
-				"north": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#crossties_1"},
-				"east": {"uv": [15, 1, 16, 3], "rotation": 90, "texture": "#crossties_1"},
-				"south": {"uv": [1, 3, 15, 4], "texture": "#crossties_1"},
-				"west": {"uv": [0, 1, 1, 3], "rotation": 270, "texture": "#crossties_1"},
-				"up": {"uv": [1, 1, 15, 3], "texture": "#crossties_1"},
-				"down": {"uv": [1, 4, 15, 6], "texture": "#crossties_1", "cullface": "down"}
-			}
-		},
-		{
-			"from": [1, 0, 13],
-			"to": [15, 1, 15],
-			"faces": {
-				"north": {"uv": [1, 8, 15, 9], "rotation": 180, "texture": "#crossties_1"},
-				"east": {"uv": [15, 9, 16, 11], "rotation": 90, "texture": "#crossties_1"},
-				"south": {"uv": [1, 11, 15, 12], "texture": "#crossties_1"},
-				"west": {"uv": [0, 9, 1, 11], "rotation": 270, "texture": "#crossties_1"},
-				"up": {"uv": [1, 9, 15, 11], "texture": "#crossties_1"},
-				"down": {"uv": [1, 12, 15, 14], "texture": "#crossties_1", "cullface": "down"}
-			}
-		},
 		{
 			"from": [3, 1, 0],
 			"to": [4, 2.5, 16],
@@ -99,6 +53,57 @@
 				"south": {"uv": [1, 9, 0, 10], "texture": "#rail", "cullface": "south"},
 				"up": {"uv": [0, 3, 16, 2], "rotation": 270, "texture": "#rail"},
 				"down": {"uv": [0, 1, 16, 0], "rotation": 90, "texture": "#rail"}
+			}
+		},
+		{
+			"from": [1, 0, 1],
+			"to": [15, 1, 3],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, -4]},
+			"faces": {
+				"north": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#crosstie_0"},
+				"east": {"uv": [15, 1, 16, 3], "rotation": 90, "texture": "#crosstie_0"},
+				"south": {"uv": [1, 3, 15, 4], "texture": "#crosstie_0"},
+				"west": {"uv": [0, 1, 1, 3], "rotation": 270, "texture": "#crosstie_0"},
+				"up": {"uv": [1, 1, 15, 3], "texture": "#crosstie_0"},
+				"down": {"uv": [1, 4, 15, 6], "texture": "#crosstie_0", "cullface": "down"}
+			}
+		},
+		{
+			"from": [1, 0, 5],
+			"to": [15, 1, 7],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 0]},
+			"faces": {
+				"north": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#crosstie_1"},
+				"east": {"uv": [15, 1, 16, 3], "rotation": 90, "texture": "#crosstie_1"},
+				"south": {"uv": [1, 3, 15, 4], "texture": "#crosstie_1"},
+				"west": {"uv": [0, 1, 1, 3], "rotation": 270, "texture": "#crosstie_1"},
+				"up": {"uv": [1, 1, 15, 3], "texture": "#crosstie_1"},
+				"down": {"uv": [1, 4, 15, 6], "texture": "#crosstie_1", "cullface": "down"}
+			}
+		},
+		{
+			"from": [1, 0, 9],
+			"to": [15, 1, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 4]},
+			"faces": {
+				"north": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#crosstie_2"},
+				"east": {"uv": [15, 1, 16, 3], "rotation": 90, "texture": "#crosstie_2"},
+				"south": {"uv": [1, 3, 15, 4], "texture": "#crosstie_2"},
+				"west": {"uv": [0, 1, 1, 3], "rotation": 270, "texture": "#crosstie_2"},
+				"up": {"uv": [1, 1, 15, 3], "texture": "#crosstie_2"},
+				"down": {"uv": [1, 4, 15, 6], "texture": "#crosstie_2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [1, 0, 13],
+			"to": [15, 1, 15],
+			"faces": {
+				"north": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#crosstie_3"},
+				"east": {"uv": [15, 1, 16, 3], "rotation": 90, "texture": "#crosstie_3"},
+				"south": {"uv": [1, 3, 15, 4], "texture": "#crosstie_3"},
+				"west": {"uv": [0, 1, 1, 3], "rotation": 270, "texture": "#crosstie_3"},
+				"up": {"uv": [1, 1, 15, 3], "texture": "#crosstie_3"},
+				"down": {"uv": [1, 4, 15, 6], "texture": "#crosstie_3", "cullface": "down"}
 			}
 		},
 		{
@@ -194,23 +199,44 @@
 	],
 	"groups": [
 		{
-			"name": "base_straight",
+			"name": "rail",
 			"origin": [8, 8, 8],
 			"children": [
 				{
-					"name": "group",
+					"name": "rail_straight",
 					"origin": [8, 8, 8],
-					"children": [0, 1, 2, 3]
+					"children": [
+						{
+							"name": "group",
+							"origin": [8, 8, 8],
+							"children": [0, 1]
+						},
+						{
+							"name": "group",
+							"origin": [8, 8, 8],
+							"children": [2, 3]
+						}
+					]
 				},
 				{
-					"name": "group",
+					"name": "generic_straight_a",
 					"origin": [8, 8, 8],
-					"children": [4, 5]
+					"children": [4]
 				},
 				{
-					"name": "group",
+					"name": "generic_straight_b",
 					"origin": [8, 8, 8],
-					"children": [6, 7]
+					"children": [5]
+				},
+				{
+					"name": "generic_straight_c",
+					"origin": [8, 8, 8],
+					"children": [6]
+				},
+				{
+					"name": "generic_straight_d",
+					"origin": [8, 8, 8],
+					"children": [7]
 				}
 			]
 		},

@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/rail/crosstie/generic_slope_f",
+	"textures": {
+		"crosstie": "minecraft:block/rail/crosstie_2"
+	}
+}

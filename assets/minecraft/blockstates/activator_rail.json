@@ -50,27 +50,315 @@
 		},
 		{
 			"when": { "shape": "north_south" },
-			"apply": { "model": "minecraft:block/rail/base_straight", "y": 0 }
+			"apply": { "model": "minecraft:block/rail/rail_straight", "y": 0 }
 		},
 		{
 			"when": { "shape": "east_west" },
-			"apply": { "model": "minecraft:block/rail/base_straight", "y": 90 }
+			"apply": { "model": "minecraft:block/rail/rail_straight", "y": 90 }
 		},
 		{
 			"when": { "shape": "ascending_north" },
-			"apply": { "model": "minecraft:block/rail/base_slope", "y": 0 }
+			"apply": { "model": "minecraft:block/rail/rail_slope", "y": 0 }
 		},
 		{
 			"when": { "shape": "ascending_east" },
-			"apply": { "model": "minecraft:block/rail/base_slope", "y": 90 }
+			"apply": { "model": "minecraft:block/rail/rail_slope", "y": 90 }
 		},
 		{
 			"when": { "shape": "ascending_south" },
-			"apply": { "model": "minecraft:block/rail/base_slope", "y": 180 }
+			"apply": { "model": "minecraft:block/rail/rail_slope", "y": 180 }
 		},
 		{
 			"when": { "shape": "ascending_west" },
-			"apply": { "model": "minecraft:block/rail/base_slope", "y": 270 }
+			"apply": { "model": "minecraft:block/rail/rail_slope", "y": 270 }
+		},
+		{
+			"when": { "shape": "north_south" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/straight_a_0", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_a_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_a_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_a_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "north_south" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/straight_b_0", "y": 0, "weight": 101 },
+				{ "model": "minecraft:block/rail/crosstie/straight_b_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_b_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_b_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "north_south" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/straight_c_0", "y": 0, "weight": 102 },
+				{ "model": "minecraft:block/rail/crosstie/straight_c_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_c_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_c_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "north_south" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/straight_d_0", "y": 0, "weight": 103 },
+				{ "model": "minecraft:block/rail/crosstie/straight_d_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_d_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_d_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "east_west" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/straight_a_0", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_a_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_a_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_a_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "east_west" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/straight_b_0", "y": 90, "weight": 101 },
+				{ "model": "minecraft:block/rail/crosstie/straight_b_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_b_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_b_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "east_west" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/straight_c_0", "y": 90, "weight": 102 },
+				{ "model": "minecraft:block/rail/crosstie/straight_c_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_c_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_c_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "east_west" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/straight_d_0", "y": 90, "weight": 103 },
+				{ "model": "minecraft:block/rail/crosstie/straight_d_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_d_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/straight_d_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_north" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_a_0", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_north" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_b_0", "y": 0, "weight": 101 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_north" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_c_0", "y": 0, "weight": 102 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_north" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_d_0", "y": 0, "weight": 103 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_north" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_e_0", "y": 0, "weight": 104 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_north" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_f_0", "y": 0, "weight": 105 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_east" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_a_0", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_east" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_b_0", "y": 90, "weight": 101 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_east" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_c_0", "y": 90, "weight": 102 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_east" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_d_0", "y": 90, "weight": 103 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_east" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_e_0", "y": 90, "weight": 104 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_east" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_f_0", "y": 90, "weight": 105 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_south" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_a_0", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_south" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_b_0", "y": 180, "weight": 101 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_south" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_c_0", "y": 180, "weight": 102 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_south" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_d_0", "y": 180, "weight": 103 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_south" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_e_0", "y": 180, "weight": 104 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_south" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_f_0", "y": 180, "weight": 105 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_west" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_a_0", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_a_3", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_west" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_b_0", "y": 270, "weight": 101 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_b_3", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_west" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_c_0", "y": 270, "weight": 102 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_c_3", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_west" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_d_0", "y": 270, "weight": 103 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_d_3", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_west" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_e_0", "y": 270, "weight": 104 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_e_3", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "shape": "ascending_west" },
+			"apply": [
+				{ "model": "minecraft:block/rail/crosstie/slope_f_0", "y": 270, "weight": 105 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/rail/crosstie/slope_f_3", "y": 270, "weight": 100 }
+			]
 		}
 	]
 }
