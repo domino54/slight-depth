@@ -1,0 +1,30 @@
+{
+	"multipart": [
+		{
+			"apply": { "model": "minecraft:block/ore/side_copper", "y": 0 }
+		},
+		{
+			"apply": { "model": "minecraft:block/ore/side_copper", "y": 90 }
+		},
+		{
+			"apply": { "model": "minecraft:block/ore/side_copper", "y": 180 }
+		},
+		{
+			"apply": { "model": "minecraft:block/ore/side_copper", "y": 270 }
+		},
+		{
+			"apply": { "model": "minecraft:block/ore/side_copper", "y": 180, "x": 90 }
+		},
+		{
+			"apply": { "model": "minecraft:block/ore/side_copper", "y": 180, "x": 270 }
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/stone" },
+				{ "model": "minecraft:block/stone_mirrored" },
+				{ "model": "minecraft:block/stone", "y": 180 },
+				{ "model": "minecraft:block/stone_mirrored", "y": 180 }
+			]
+		}
+	]
+}
