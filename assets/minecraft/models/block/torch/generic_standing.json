@@ -1,7 +1,7 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"handle": "minecraft:block/torch/handle"
+		"handle": "block/torch/handle"
 	},
 	"elements": [
 		{
@@ -29,23 +29,20 @@
 			"from": [5.75, 5.75, 6.875],
 			"to": [10.25, 10.25, 6.875],
 			"faces": {
-				"north": {"uv": [12, 2, 16, 6], "texture": "#lit"},
-				"south": {"uv": [16, 2, 12, 6], "texture": "#lit"}
+				"north": {"uv": [12, 2, 16, 6], "texture": "#lit"}
 			}
 		},
 		{
 			"from": [9.125, 5.75, 5.75],
 			"to": [9.125, 10.25, 10.25],
 			"faces": {
-				"east": {"uv": [8, 2, 12, 6], "texture": "#lit"},
-				"west": {"uv": [12, 2, 8, 6], "texture": "#lit"}
+				"east": {"uv": [8, 2, 12, 6], "texture": "#lit"}
 			}
 		},
 		{
 			"from": [5.75, 5.75, 9.125],
 			"to": [10.25, 10.25, 9.125],
 			"faces": {
-				"north": {"uv": [8, 2, 4, 6], "texture": "#lit"},
 				"south": {"uv": [4, 2, 8, 6], "texture": "#lit"}
 			}
 		},
@@ -53,7 +50,6 @@
 			"from": [6.875, 5.75, 5.75],
 			"to": [6.875, 10.25, 10.25],
 			"faces": {
-				"east": {"uv": [4, 2, 0, 6], "texture": "#lit"},
 				"west": {"uv": [0, 2, 4, 6], "texture": "#lit"}
 			}
 		}
@@ -72,9 +68,6 @@
 		"ground": {
 			"translation": [0, 2, 0],
 			"scale": [0.5, 0.5, 0.5]
-		},
-		"gui": {
-			"rotation": [30, 45, 0]
 		},
 		"head": {
 			"rotation": [0, 90, 0],

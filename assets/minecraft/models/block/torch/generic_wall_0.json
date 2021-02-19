@@ -1,7 +1,7 @@
 {
 	"ambientocclusion": false,
 	"textures": {
-		"handle": "minecraft:block/torch/handle"
+		"handle": "block/torch/handle"
 	},
 	"elements": [
 		{
@@ -18,8 +18,7 @@
 			"to": [10.25, 14.75, 14.875],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.5, 17]},
 			"faces": {
-				"north": {"uv": [12, 2, 16, 6], "texture": "#lit"},
-				"south": {"uv": [16, 2, 12, 6], "texture": "#lit"}
+				"north": {"uv": [12, 2, 16, 6], "texture": "#lit"}
 			}
 		},
 		{
@@ -27,8 +26,7 @@
 			"to": [9.125, 14.75, 18.25],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.5, 17]},
 			"faces": {
-				"east": {"uv": [8, 2, 12, 6], "texture": "#lit"},
-				"west": {"uv": [12, 2, 8, 6], "texture": "#lit"}
+				"east": {"uv": [8, 2, 12, 6], "texture": "#lit"}
 			}
 		},
 		{
@@ -36,7 +34,6 @@
 			"to": [10.25, 14.75, 17.125],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.5, 17]},
 			"faces": {
-				"north": {"uv": [8, 2, 4, 6], "texture": "#lit"},
 				"south": {"uv": [4, 2, 8, 6], "texture": "#lit"}
 			}
 		},
@@ -45,7 +42,6 @@
 			"to": [6.875, 14.75, 18.25],
 			"rotation": {"angle": -22.5, "axis": "x", "origin": [8, 4.5, 17]},
 			"faces": {
-				"east": {"uv": [4, 2, 0, 6], "texture": "#lit"},
 				"west": {"uv": [0, 2, 4, 6], "texture": "#lit"}
 			}
 		},
