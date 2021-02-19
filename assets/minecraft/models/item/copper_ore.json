@@ -1,6 +1,7 @@
 {
 	"parent": "minecraft:item/generic_ore_copper",
 	"textures": {
+		"block": "minecraft:block/stone",
 		"ore": "minecraft:block/ore/copper"
 	}
 }

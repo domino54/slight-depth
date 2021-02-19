@@ -1,22 +1,22 @@
 {
 	"multipart": [
 		{
-			"apply": { "model": "minecraft:block/ore/side_nether_gold", "y": 0 }
+			"apply": { "model": "minecraft:block/ore/side_gold", "y": 0 }
 		},
 		{
-			"apply": { "model": "minecraft:block/ore/side_nether_gold", "y": 90 }
+			"apply": { "model": "minecraft:block/ore/side_gold", "y": 90 }
 		},
 		{
-			"apply": { "model": "minecraft:block/ore/side_nether_gold", "y": 180 }
+			"apply": { "model": "minecraft:block/ore/side_gold", "y": 180 }
 		},
 		{
-			"apply": { "model": "minecraft:block/ore/side_nether_gold", "y": 270 }
+			"apply": { "model": "minecraft:block/ore/side_gold", "y": 270 }
 		},
 		{
-			"apply": { "model": "minecraft:block/ore/side_nether_gold", "y": 180, "x": 90 }
+			"apply": { "model": "minecraft:block/ore/side_gold", "y": 180, "x": 90 }
 		},
 		{
-			"apply": { "model": "minecraft:block/ore/side_nether_gold", "y": 180, "x": 270 }
+			"apply": { "model": "minecraft:block/ore/side_gold", "y": 180, "x": 270 }
 		},
 		{
 			"apply": [

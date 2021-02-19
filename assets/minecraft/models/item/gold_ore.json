@@ -1,6 +1,7 @@
 {
-	"parent": "minecraft:item/generic_ore_normal",
+	"parent": "minecraft:item/generic_ore_gold",
 	"textures": {
+		"block": "minecraft:block/stone",
 		"ore": "minecraft:block/ore/gold"
 	}
 }

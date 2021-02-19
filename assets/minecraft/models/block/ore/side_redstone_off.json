@@ -1,5 +1,5 @@
 {
-	"parent": "minecraft:block/ore/generic_side_normal",
+	"parent": "minecraft:block/ore/generic_side_diamond",
 	"textures": {
 		"ore": "minecraft:block/ore/redstone_off",
 		"particle": "minecraft:block/redstone_ore"

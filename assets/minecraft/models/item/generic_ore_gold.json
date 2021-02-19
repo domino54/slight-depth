@@ -1,19 +1,16 @@
 {
 	"parent": "minecraft:block/block",
-	"textures": {
-		"netherrack": "minecraft:block/netherrack"
-	},
 	"elements": [
 		{
 			"from": [0, 0, 0],
 			"to": [16, 16, 16],
 			"faces": {
-				"north": {"uv": [0, 0, 16, 16], "texture": "#netherrack"},
-				"east": {"uv": [0, 0, 16, 16], "texture": "#netherrack"},
-				"south": {"uv": [0, 0, 16, 16], "texture": "#netherrack"},
-				"west": {"uv": [0, 0, 16, 16], "texture": "#netherrack"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#netherrack"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#netherrack"}
+				"north": {"uv": [0, 0, 16, 16], "texture": "#block"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#block"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#block"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#block"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#block"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#block"}
 			}
 		},
 		{

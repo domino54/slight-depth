@@ -1,7 +1,6 @@
 {
-	"parent": "minecraft:block/ore/generic_side_normal",
+	"parent": "minecraft:block/ore/side_redstone_off",
 	"textures": {
-		"ore": "minecraft:block/ore/redstone_on",
-		"particle": "minecraft:block/redstone_ore"
+		"ore": "minecraft:block/ore/redstone_on"
 	}
 }

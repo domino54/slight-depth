@@ -1,8 +1,5 @@
 {
 	"parent": "minecraft:block/block",
-	"textures": {
-		"block": "minecraft:block/stone"
-	},
 	"elements": [
 		{
 			"from": [0, 0, 0],

@@ -1,6 +1,7 @@
 {
 	"parent": "minecraft:item/generic_ore_nether_quartz",
 	"textures": {
+		"block": "minecraft:block/netherrack",
 		"ore": "minecraft:block/ore/nether_quartz"
 	}
 }
