@@ -1,0 +1,28 @@
+{
+	"multipart": [
+		{
+			"apply": [
+				{ "model": "minecraft:block/flower_pot/pot", "y": 0 },
+				{ "model": "minecraft:block/flower_pot/pot", "y": 90 },
+				{ "model": "minecraft:block/flower_pot/pot", "y": 180 },
+				{ "model": "minecraft:block/flower_pot/pot", "y": 270 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/flower_pot/soil_grass", "y": 0 },
+				{ "model": "minecraft:block/flower_pot/soil_grass", "y": 90 },
+				{ "model": "minecraft:block/flower_pot/soil_grass", "y": 180 },
+				{ "model": "minecraft:block/flower_pot/soil_grass", "y": 270 }
+			]
+		},
+		{
+			"apply": [
+				{ "model": "minecraft:block/flower_pot/cross_azure_bluet", "y": 0 },
+				{ "model": "minecraft:block/flower_pot/cross_azure_bluet", "y": 90 },
+				{ "model": "minecraft:block/flower_pot/cross_azure_bluet", "y": 180 },
+				{ "model": "minecraft:block/flower_pot/cross_azure_bluet", "y": 270 }
+			]
+		}
+	]
+}

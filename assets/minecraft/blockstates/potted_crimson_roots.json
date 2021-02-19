@@ -18,14 +18,10 @@
 		},
 		{
 			"apply": [
-				{ "model": "minecraft:block/potted_fungus/crimson_0", "y": 0 },
-				{ "model": "minecraft:block/potted_fungus/crimson_0", "y": 90 },
-				{ "model": "minecraft:block/potted_fungus/crimson_0", "y": 180 },
-				{ "model": "minecraft:block/potted_fungus/crimson_0", "y": 270 },
-				{ "model": "minecraft:block/potted_fungus/crimson_1", "y": 0 },
-				{ "model": "minecraft:block/potted_fungus/crimson_1", "y": 90 },
-				{ "model": "minecraft:block/potted_fungus/crimson_1", "y": 180 },
-				{ "model": "minecraft:block/potted_fungus/crimson_1", "y": 270 }
+				{ "model": "minecraft:block/flower_pot/cross_crimson_roots", "y": 0 },
+				{ "model": "minecraft:block/flower_pot/cross_crimson_roots", "y": 90 },
+				{ "model": "minecraft:block/flower_pot/cross_crimson_roots", "y": 180 },
+				{ "model": "minecraft:block/flower_pot/cross_crimson_roots", "y": 270 }
 			]
 		}
 	]

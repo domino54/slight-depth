@@ -1,0 +1,6 @@
+{
+	"parent": "minecraft:block/flower_pot/generic_cross",
+	"textures": {
+		"cross": "minecraft:block/birch_sapling"
+	}
+}
