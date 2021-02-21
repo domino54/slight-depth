@@ -1,8 +1,8 @@
 {
 	"parent": "minecraft:item/generic_axe",
 	"textures": {
-		"material": "minecraft:item/axe/diamond",
 		"handle": "minecraft:item/axe/handle_wooden",
+		"head": "minecraft:item/axe/head_diamond",
 		"particle": "minecraft:item/diamond_axe"
 	}
 }

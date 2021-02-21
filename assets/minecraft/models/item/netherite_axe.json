@@ -1,8 +1,8 @@
 {
 	"parent": "minecraft:item/generic_axe",
 	"textures": {
-		"material": "minecraft:item/axe/netherite",
 		"handle": "minecraft:item/axe/handle_netherite",
+		"head": "minecraft:item/axe/head_netherite",
 		"particle": "minecraft:item/netherite_axe"
 	}
 }
