@@ -1,3 +1,148 @@
 {
-	"parent": "minecraft:block/ladder"
+	"textures": {
+		"stile_left": "block/ladder/stile_0",
+		"stile_right": "block/ladder/stile_1",
+		"step_a": "block/ladder/step_0",
+		"step_b": "block/ladder/step_1",
+		"step_c": "block/ladder/step_2",
+		"step_d": "block/ladder/step_3"
+	},
+	"elements": [
+		{
+			"from": [12, 0, 14],
+			"to": [14, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [21, 8, 23]},
+			"faces": {
+				"north": {"uv": [2, 0, 4, 16], "texture": "#stile_left"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#stile_left"},
+				"south": {"uv": [6, 0, 8, 16], "texture": "#stile_left", "cullface": "south"},
+				"west": {"uv": [4, 0, 6, 16], "texture": "#stile_left"},
+				"up": {"uv": [8, 0, 10, 2], "rotation": 180, "texture": "#stile_left", "cullface": "up"},
+				"down": {"uv": [8, 14, 10, 16], "rotation": 180, "texture": "#stile_left", "cullface": "down"}
+			}
+		},
+		{
+			"from": [2, 0, 14],
+			"to": [4, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [11, 8, 23]},
+			"faces": {
+				"north": {"uv": [2, 0, 4, 16], "texture": "#stile_right"},
+				"east": {"uv": [0, 0, 2, 16], "texture": "#stile_right"},
+				"south": {"uv": [6, 0, 8, 16], "texture": "#stile_right", "cullface": "south"},
+				"west": {"uv": [4, 0, 6, 16], "texture": "#stile_right"},
+				"up": {"uv": [8, 0, 10, 2], "rotation": 180, "texture": "#stile_right", "cullface": "up"},
+				"down": {"uv": [8, 14, 10, 16], "rotation": 180, "texture": "#stile_right", "cullface": "down"}
+			}
+		},
+		{
+			"from": [1, 1, 13],
+			"to": [15, 3, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, 9, 21]},
+			"faces": {
+				"north": {"uv": [1, 1, 15, 3], "texture": "#step_a"},
+				"east": {"uv": [0, 1, 1, 3], "texture": "#step_a"},
+				"south": {"uv": [1, 4, 15, 6], "rotation": 180, "texture": "#step_a"},
+				"west": {"uv": [15, 1, 16, 3], "texture": "#step_a"},
+				"up": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#step_a"},
+				"down": {"uv": [1, 3, 15, 4], "rotation": 180, "texture": "#step_a"}
+			}
+		},
+		{
+			"from": [1, 5, 13],
+			"to": [15, 7, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, 13, 21]},
+			"faces": {
+				"north": {"uv": [1, 1, 15, 3], "texture": "#step_b"},
+				"east": {"uv": [0, 1, 1, 3], "texture": "#step_b"},
+				"south": {"uv": [1, 4, 15, 6], "rotation": 180, "texture": "#step_b"},
+				"west": {"uv": [15, 1, 16, 3], "texture": "#step_b"},
+				"up": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#step_b"},
+				"down": {"uv": [1, 3, 15, 4], "rotation": 180, "texture": "#step_b"}
+			}
+		},
+		{
+			"from": [1, 9, 13],
+			"to": [15, 11, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, 17, 21]},
+			"faces": {
+				"north": {"uv": [1, 1, 15, 3], "texture": "#step_c"},
+				"east": {"uv": [0, 1, 1, 3], "texture": "#step_c"},
+				"south": {"uv": [1, 4, 15, 6], "rotation": 180, "texture": "#step_c"},
+				"west": {"uv": [15, 1, 16, 3], "texture": "#step_c"},
+				"up": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#step_c"},
+				"down": {"uv": [1, 3, 15, 4], "rotation": 180, "texture": "#step_c"}
+			}
+		},
+		{
+			"from": [1, 13, 13],
+			"to": [15, 15, 14],
+			"rotation": {"angle": 0, "axis": "y", "origin": [23, 21, 21]},
+			"faces": {
+				"north": {"uv": [1, 1, 15, 3], "texture": "#step_d"},
+				"east": {"uv": [0, 1, 1, 3], "texture": "#step_d"},
+				"south": {"uv": [1, 4, 15, 6], "rotation": 180, "texture": "#step_d"},
+				"west": {"uv": [15, 1, 16, 3], "texture": "#step_d"},
+				"up": {"uv": [1, 0, 15, 1], "rotation": 180, "texture": "#step_d"},
+				"down": {"uv": [1, 3, 15, 4], "rotation": 180, "texture": "#step_d"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, 180, 0],
+			"translation": [0, 3, 4.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_righthand": {
+			"rotation": [-30, 90, 0],
+			"translation": [-2, 2.5, 0],
+			"scale": [0.75, 0.75, 0.75]
+		},
+		"ground": {
+			"translation": [0, 2, -3.25],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"gui": {
+			"rotation": [0, -180, 0]
+		},
+		"head": {
+			"translation": [0, 14.5, -1.5]
+		},
+		"fixed": {
+			"translation": [0, 0, -8]
+		}
+	},
+	"groups": [
+		{
+			"name": "stile_left",
+			"origin": [8, 8, 8],
+			"children": [0]
+		},
+		{
+			"name": "stile_right",
+			"origin": [8, 8, 8],
+			"children": [1]
+		},
+		{
+			"name": "step_a",
+			"origin": [8, 8, 8],
+			"children": [2]
+		},
+		{
+			"name": "step_b",
+			"origin": [8, 8, 8],
+			"children": [3]
+		},
+		{
+			"name": "step_c",
+			"origin": [8, 8, 8],
+			"children": [4]
+		},
+		{
+			"name": "step_d",
+			"origin": [8, 8, 8],
+			"children": [5]
+		}
+	]
 }

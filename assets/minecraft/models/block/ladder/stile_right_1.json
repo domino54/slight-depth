@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/ladder/generic_stile_right",
+	"textures": {
+		"stile": "minecraft:block/ladder/stile_1",
+		"particle": "minecraft:block/ladder"
+	}
+}

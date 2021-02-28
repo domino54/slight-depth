@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/ladder/generic_step_a",
+	"textures": {
+		"step": "minecraft:block/ladder/step_1",
+		"particle": "minecraft:block/ladder"
+	}
+}

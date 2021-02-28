@@ -1,8 +1,204 @@
 {
-	"variants": {
-		"facing=north": { "model": "minecraft:block/ladder", "y": 0 },
-		"facing=east":  { "model": "minecraft:block/ladder", "y": 90 },
-		"facing=south": { "model": "minecraft:block/ladder", "y": 180 },
-		"facing=west":  { "model": "minecraft:block/ladder", "y": 270 }
-	}
+	"multipart": [
+		{
+			"when": { "facing": "north" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/stile_left_0", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/ladder/stile_left_1", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "north" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/stile_right_0", "y": 0, "weight": 101 },
+				{ "model": "minecraft:block/ladder/stile_right_1", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "north" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_a_0", "y": 0, "weight": 102 },
+				{ "model": "minecraft:block/ladder/step_a_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_a_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_a_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "north" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_b_0", "y": 0, "weight": 103 },
+				{ "model": "minecraft:block/ladder/step_b_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_b_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_b_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "north" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_c_0", "y": 0, "weight": 104 },
+				{ "model": "minecraft:block/ladder/step_c_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_c_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_c_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "north" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_d_0", "y": 0, "weight": 105 },
+				{ "model": "minecraft:block/ladder/step_d_1", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_d_2", "y": 0, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_d_3", "y": 0, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "east" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/stile_left_0", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/ladder/stile_left_1", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "east" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/stile_right_0", "y": 90, "weight": 101 },
+				{ "model": "minecraft:block/ladder/stile_right_1", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "east" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_a_0", "y": 90, "weight": 102 },
+				{ "model": "minecraft:block/ladder/step_a_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_a_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_a_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "east" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_b_0", "y": 90, "weight": 103 },
+				{ "model": "minecraft:block/ladder/step_b_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_b_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_b_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "east" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_c_0", "y": 90, "weight": 104 },
+				{ "model": "minecraft:block/ladder/step_c_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_c_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_c_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "east" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_d_0", "y": 90, "weight": 105 },
+				{ "model": "minecraft:block/ladder/step_d_1", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_d_2", "y": 90, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_d_3", "y": 90, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "south" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/stile_left_0", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/ladder/stile_left_1", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "south" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/stile_right_0", "y": 180, "weight": 101 },
+				{ "model": "minecraft:block/ladder/stile_right_1", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "south" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_a_0", "y": 180, "weight": 102 },
+				{ "model": "minecraft:block/ladder/step_a_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_a_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_a_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "south" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_b_0", "y": 180, "weight": 103 },
+				{ "model": "minecraft:block/ladder/step_b_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_b_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_b_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "south" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_c_0", "y": 180, "weight": 104 },
+				{ "model": "minecraft:block/ladder/step_c_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_c_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_c_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "south" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_d_0", "y": 180, "weight": 105 },
+				{ "model": "minecraft:block/ladder/step_d_1", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_d_2", "y": 180, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_d_3", "y": 180, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "west" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/stile_left_0", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/ladder/stile_left_1", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "west" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/stile_right_0", "y": 270, "weight": 101 },
+				{ "model": "minecraft:block/ladder/stile_right_1", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "west" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_a_0", "y": 270, "weight": 102 },
+				{ "model": "minecraft:block/ladder/step_a_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_a_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_a_3", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "west" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_b_0", "y": 270, "weight": 103 },
+				{ "model": "minecraft:block/ladder/step_b_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_b_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_b_3", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "west" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_c_0", "y": 270, "weight": 104 },
+				{ "model": "minecraft:block/ladder/step_c_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_c_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_c_3", "y": 270, "weight": 100 }
+			]
+		},
+		{
+			"when": { "facing": "west" },
+			"apply": [
+				{ "model": "minecraft:block/ladder/step_d_0", "y": 270, "weight": 105 },
+				{ "model": "minecraft:block/ladder/step_d_1", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_d_2", "y": 270, "weight": 100 },
+				{ "model": "minecraft:block/ladder/step_d_3", "y": 270, "weight": 100 }
+			]
+		}
+	]
 }
