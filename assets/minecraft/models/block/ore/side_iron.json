@@ -1,7 +1,7 @@
 {
-	"parent": "minecraft:block/ore/generic_side_diamond",
+	"parent": "minecraft:block/ore/generic_side_iron",
 	"textures": {
-		"ore": "minecraft:block/ore/iron",
+		"ore": "minecraft:block/ore/ore_iron",
 		"particle": "minecraft:block/iron_ore"
 	}
 }

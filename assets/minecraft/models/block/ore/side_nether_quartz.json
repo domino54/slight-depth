@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:block/ore/generic_side_nether_quartz",
 	"textures": {
-		"ore": "minecraft:block/ore/nether_quartz",
+		"ore": "minecraft:block/ore/ore_nether_quartz",
 		"particle": "minecraft:block/nether_quartz_ore"
 	}
 }

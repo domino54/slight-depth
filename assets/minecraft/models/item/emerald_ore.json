@@ -2,6 +2,12 @@
 	"parent": "minecraft:item/generic_ore_emerald",
 	"textures": {
 		"block": "minecraft:block/stone",
-		"ore": "minecraft:block/ore/emerald"
+		"north": "#block",
+		"east": "#block",
+		"south": "#block",
+		"west": "#block",
+		"up": "#block",
+		"down": "#block",
+		"ore": "minecraft:block/ore/ore_emerald"
 	}
 }

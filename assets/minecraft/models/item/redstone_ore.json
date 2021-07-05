@@ -1,7 +1,13 @@
 {
-	"parent": "minecraft:item/generic_ore_diamond",
+	"parent": "minecraft:item/generic_ore_redstone",
 	"textures": {
 		"block": "minecraft:block/stone",
-		"ore": "minecraft:block/ore/redstone_off"
+		"north": "#block",
+		"east": "#block",
+		"south": "#block",
+		"west": "#block",
+		"up": "#block",
+		"down": "#block",
+		"ore": "minecraft:block/ore/ore_redstone_off"
 	}
 }

@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/ore/generic_side_nether_gold",
+	"textures": {
+		"ore": "minecraft:block/ore/ore_nether_gold",
+		"particle": "minecraft:block/nether_gold_ore"
+	}
+}

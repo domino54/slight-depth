@@ -1,0 +1,14 @@
+{
+	"parent": "minecraft:item/generic_ore_lapis",
+	"textures": {
+		"end": "minecraft:block/deepslate_top",
+		"side": "minecraft:block/deepslate",
+		"north": "#side",
+		"east": "#side",
+		"south": "#side",
+		"west": "#side",
+		"up": "#end",
+		"down": "#end",
+		"ore": "minecraft:block/ore/ore_lapis"
+	}
+}

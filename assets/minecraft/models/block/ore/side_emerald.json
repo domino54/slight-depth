@@ -1,7 +1,7 @@
 {
 	"parent": "minecraft:block/ore/generic_side_emerald",
 	"textures": {
-		"ore": "minecraft:block/ore/emerald",
+		"ore": "minecraft:block/ore/ore_emerald",
 		"particle": "minecraft:block/emerald_ore"
 	}
 }

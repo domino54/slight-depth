@@ -2,6 +2,12 @@
 	"parent": "minecraft:item/generic_ore_nether_quartz",
 	"textures": {
 		"block": "minecraft:block/netherrack",
-		"ore": "minecraft:block/ore/nether_quartz"
+		"north": "#block",
+		"east": "#block",
+		"south": "#block",
+		"west": "#block",
+		"up": "#block",
+		"down": "#block",
+		"ore": "minecraft:block/ore/ore_nether_quartz"
 	}
 }
